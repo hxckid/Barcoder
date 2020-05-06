@@ -34,10 +34,11 @@
             // brandsBox
             // 
             this.brandsBox.FormattingEnabled = true;
-            this.brandsBox.Location = new System.Drawing.Point(33, 13);
+            this.brandsBox.Location = new System.Drawing.Point(12, 13);
             this.brandsBox.Name = "brandsBox";
-            this.brandsBox.Size = new System.Drawing.Size(121, 21);
+            this.brandsBox.Size = new System.Drawing.Size(175, 21);
             this.brandsBox.TabIndex = 0;
+            this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
             // 
             // Barcoder
             // 

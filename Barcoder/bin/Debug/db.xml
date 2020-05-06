@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfPaint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Paint>
+    <Brand>New Brand</Brand>
+    <Product>New Product</Product>
+    <Base>New Base</Base>
+    <Volume>0</Volume>
+    <Barcode>0</Barcode>
+  </Paint>
+  <Paint>
+    <Brand>New Brand</Brand>
+    <Product>New Product</Product>
+    <Base>New Base</Base>
+    <Volume>0</Volume>
+    <Barcode>0</Barcode>
+  </Paint>
+</ArrayOfPaint>
