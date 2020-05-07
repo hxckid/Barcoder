@@ -1,17 +1,96 @@
 <?xml version="1.0"?>
 <ArrayOfPaint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Paint>
-    <Brand>New Brand</Brand>
-    <Product>New Product</Product>
-    <Base>New Base</Base>
-    <Volume>0</Volume>
-    <Barcode>0</Barcode>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>15859</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>15858</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9</Volume>
+        <Barcode>15857</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>15855</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>15854</Barcode>
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Harmony</Product>
   </Paint>
   <Paint>
-    <Brand>New Brand</Brand>
-    <Product>New Product</Product>
-    <Base>New Base</Base>
-    <Volume>0</Volume>
-    <Barcode>0</Barcode>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>16034</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>16035</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9</Volume>
+        <Barcode>16036</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>16037</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>16038</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9</Volume>
+        <Barcode>16039</Barcode>
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Euro Matt 3</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>ORO</Base>
+        <Volume>1</Volume>
+        <Barcode>19194</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>ARG</Base>
+        <Volume>1</Volume>
+        <Barcode>19196</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>ARG</Base>
+        <Volume>3</Volume>
+        <Barcode>19197</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BRO</Base>
+        <Volume>1</Volume>
+        <Barcode>25000</Barcode>
+      </ProductData>
+    </Data>
+    <Brand>Rossetti</Brand>
+    <Product>Karma</Product>
   </Paint>
 </ArrayOfPaint>

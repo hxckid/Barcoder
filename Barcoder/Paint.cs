@@ -11,14 +11,25 @@ namespace Barcoder
     {
         public string Brand { get; set; }
         public string Product { get; set; }
-        public string Base { get; set; }
-        public float Volume { get; set; }
-        public int Barcode { get; set; }
+        public List<ProductData> Data;
 
         public Paint() 
         {
             Brand = "New Brand";
             Product = "New Product";
+            Data = new List<ProductData>();
+        }
+    }
+
+    [Serializable]
+    public class ProductData
+    {
+        public string Base { get; set; }
+        public float Volume { get; set; }
+        public int Barcode { get; set; }
+
+        public ProductData()
+        {
             Base = "New Base";
             Volume = 0;
             Barcode = 0;
