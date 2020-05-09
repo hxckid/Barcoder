@@ -91,8 +91,9 @@ namespace Barcoder
             db.Add(second);
             db.Add(third);
 
-            using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
+                fs.SetLength(0);
                 formatter.Serialize(fs, db);
             }
         }

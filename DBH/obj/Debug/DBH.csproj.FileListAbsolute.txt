@@ -1,0 +1,15 @@
+C:\Users\HxC\Source\Repos\barcoder\DBH\bin\Debug\DBH.exe.config
+C:\Users\HxC\Source\Repos\barcoder\DBH\bin\Debug\DBH.exe
+C:\Users\HxC\Source\Repos\barcoder\DBH\bin\Debug\DBH.pdb
+C:\Users\HxC\Source\Repos\barcoder\DBH\bin\Debug\Barcoder.exe
+C:\Users\HxC\Source\Repos\barcoder\DBH\bin\Debug\Barcoder.pdb
+C:\Users\HxC\Source\Repos\barcoder\DBH\bin\Debug\Barcoder.exe.config
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.csprojAssemblyReference.cache
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.Helper.resources
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.Properties.Resources.resources
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.csproj.GenerateResource.cache
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.csproj.CoreCompileInputs.cache
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.csproj.CopyComplete
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.exe
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.pdb
+C:\Users\HxC\Source\Repos\barcoder\DBH\obj\Debug\DBH.AddForm.resources
