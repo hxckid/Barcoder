@@ -53,11 +53,11 @@
             "Vincent",
             "Лакра",
             "Текстурол"});
-            this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.brandsBox.BackColor = System.Drawing.SystemColors.MenuText;
+            this.brandsBox.BackColor = System.Drawing.Color.DodgerBlue;
             this.brandsBox.DisplayMember = "Brand";
-            this.brandsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.brandsBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandsBox.ForeColor = System.Drawing.SystemColors.Menu;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
@@ -80,7 +80,7 @@
             this.brandsBox.Location = new System.Drawing.Point(10, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
-            this.brandsBox.Size = new System.Drawing.Size(175, 28);
+            this.brandsBox.Size = new System.Drawing.Size(190, 27);
             this.brandsBox.Sorted = true;
             this.brandsBox.TabIndex = 0;
             this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
@@ -89,46 +89,48 @@
             // 
             this.productsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.productsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.productsBox.BackColor = System.Drawing.SystemColors.MenuText;
-            this.productsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.productsBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.productsBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.productsBox.ForeColor = System.Drawing.SystemColors.Menu;
             this.productsBox.FormattingEnabled = true;
             this.productsBox.Location = new System.Drawing.Point(10, 50);
             this.productsBox.MaxDropDownItems = 100;
             this.productsBox.Name = "productsBox";
-            this.productsBox.Size = new System.Drawing.Size(175, 28);
+            this.productsBox.Size = new System.Drawing.Size(190, 27);
             this.productsBox.Sorted = true;
             this.productsBox.TabIndex = 1;
             this.productsBox.SelectedIndexChanged += new System.EventHandler(this.productsBox_SelectedIndexChanged);
             // 
             // dataBox
             // 
-            this.dataBox.BackColor = System.Drawing.SystemColors.MenuText;
-            this.dataBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dataBox.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBox.ForeColor = System.Drawing.SystemColors.Menu;
             this.dataBox.FormattingEnabled = true;
-            this.dataBox.ItemHeight = 20;
+            this.dataBox.ItemHeight = 25;
             this.dataBox.Location = new System.Drawing.Point(10, 90);
             this.dataBox.Name = "dataBox";
-            this.dataBox.Size = new System.Drawing.Size(175, 144);
+            this.dataBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dataBox.Size = new System.Drawing.Size(190, 179);
             this.dataBox.TabIndex = 2;
             this.dataBox.SelectedIndexChanged += new System.EventHandler(this.dataBox_SelectedIndexChanged);
             // 
             // label
             // 
             this.label.AutoSize = true;
-            this.label.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.label.Location = new System.Drawing.Point(10, 240);
+            this.label.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label.ForeColor = System.Drawing.SystemColors.Menu;
+            this.label.Location = new System.Drawing.Point(7, 284);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(0, 13);
+            this.label.Size = new System.Drawing.Size(0, 14);
             this.label.TabIndex = 3;
             // 
             // Barcoder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(199, 261);
+            this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ClientSize = new System.Drawing.Size(213, 306);
             this.Controls.Add(this.label);
             this.Controls.Add(this.dataBox);
             this.Controls.Add(this.productsBox);

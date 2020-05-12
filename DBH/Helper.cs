@@ -16,7 +16,7 @@ namespace DBH
     public partial class Helper : Form
     {
         public static List<Paint> db = new List<Paint>();
-        XmlSerializer formatter = new XmlSerializer(typeof(List<Paint>));
+        static XmlSerializer formatter = new XmlSerializer(typeof(List<Paint>));
 
         public Helper()
         {
@@ -25,14 +25,7 @@ namespace DBH
             ReadDB();
         }
 
-        private void RefreshProductList(object lastItem)
-        {
-            productsBox.Items.Clear();
-            brandsBox.SelectedItem = lastItem;
-            brandsBox_SelectedIndexChanged(new object(), new EventArgs());
-        }
-
-        private void WriteDB()
+        internal static void WriteDB()
         {
             using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
@@ -49,10 +42,12 @@ namespace DBH
             }
         }
 
-        private void brandsBox_SelectedIndexChanged(object sender, EventArgs e)
+        public void brandsBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (brandsBox.SelectedItem == null)
                 return;
+
+            productsBox.Items.Clear();
 
             foreach (var paint in db)
             {
@@ -62,14 +57,6 @@ namespace DBH
                 }
             }
         }
-
-        private void updateBtn_Click(object sender, EventArgs e)
-        {
-            ReadDB();
-            var lastItem = brandsBox.SelectedItem;
-            RefreshProductList(lastItem);
-        }
-
 
         private void addBtn_Click(object sender, EventArgs e)
         {
@@ -93,8 +80,7 @@ namespace DBH
 
             WriteDB();
 
-            var lastItem = brandsBox.SelectedItem;
-            RefreshProductList(lastItem);
+            brandsBox_SelectedIndexChanged(new object(), new EventArgs());
         }
 
         private void editBtn_Click(object sender, EventArgs e)
@@ -119,100 +105,32 @@ namespace DBH
             add.brandBox.Enabled = false;
             add.productBox.Text = currentPaint.Product;
             add.productBox.Enabled = false;
-            switch (currentPaint.Data.Count)
-            {
-                case 1:
-                    add.baseBox1.Text = currentPaint.Data[0].Base;
-                    add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
-                    add.bcBox1.Text = currentPaint.Data[0].Barcode.ToString();
-                    break;
-                case 2:
-                    add.baseBox1.Text =   currentPaint.Data[0].Base;
-                    add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
-                    add.bcBox1.Text =     currentPaint.Data[0].Barcode.ToString();
+            add.productBox.ForeColor = Color.Black;
 
-                    add.baseBox2.Text =   currentPaint.Data[1].Base;
-                    add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString();
-                    add.bcBox2.Text =     currentPaint.Data[1].Barcode.ToString();
-                    break;
-                case 3:
-                    add.baseBox1.Text =   currentPaint.Data[0].Base;
-                    add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
-                    add.bcBox1.Text =     currentPaint.Data[0].Barcode.ToString();
+            add.baseBox1.Text =  currentPaint.Data[0].Base;
+            add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
+            add.bcBox1.Text = currentPaint.Data[0].Barcode.ToString();
 
-                    add.baseBox2.Text =   currentPaint.Data[1].Base;
-                    add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString();
-                    add.bcBox2.Text =     currentPaint.Data[1].Barcode.ToString();
+            add.baseBox2.Text = currentPaint.Data[1].Base;
+            add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString();
+            add.bcBox2.Text = currentPaint.Data[1].Barcode.ToString();
 
-                    add.baseBox3.Text =   currentPaint.Data[2].Base;
-                    add.volumeBox3.Text = currentPaint.Data[2].Volume.ToString();
-                    add.bcBox3.Text =     currentPaint.Data[2].Barcode.ToString();
-                    break;
-                case 4:
-                    add.baseBox1.Text =   currentPaint.Data[0].Base;
-                    add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
-                    add.bcBox1.Text =     currentPaint.Data[0].Barcode.ToString();
+            add.baseBox3.Text = currentPaint.Data[2].Base;
+            add.volumeBox3.Text = currentPaint.Data[2].Volume.ToString();
+            add.bcBox3.Text = currentPaint.Data[2].Barcode.ToString();
 
-                    add.baseBox2.Text =   currentPaint.Data[1].Base;
-                    add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString();
-                    add.bcBox2.Text =     currentPaint.Data[1].Barcode.ToString();
+            add.baseBox4.Text = currentPaint.Data[3].Base;
+            add.volumeBox4.Text = currentPaint.Data[3].Volume.ToString();
+            add.bcBox4.Text = currentPaint.Data[3].Barcode.ToString();
 
-                    add.baseBox3.Text =   currentPaint.Data[2].Base;
-                    add.volumeBox3.Text = currentPaint.Data[2].Volume.ToString();
-                    add.bcBox3.Text =     currentPaint.Data[2].Barcode.ToString();
+            add.baseBox5.Text = currentPaint.Data[4].Base;
+            add.volumeBox5.Text = currentPaint.Data[4].Volume.ToString();
+            add.bcBox5.Text = currentPaint.Data[4].Barcode.ToString();
 
-                    add.baseBox4.Text =   currentPaint.Data[3].Base;
-                    add.volumeBox4.Text = currentPaint.Data[3].Volume.ToString();
-                    add.bcBox4.Text =     currentPaint.Data[3].Barcode.ToString();
-                    break;
-                case 5:
-                    add.baseBox1.Text =   currentPaint.Data[0].Base;
-                    add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
-                    add.bcBox1.Text =     currentPaint.Data[0].Barcode.ToString();
-
-                    add.baseBox2.Text =   currentPaint.Data[1].Base;
-                    add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString();
-                    add.bcBox2.Text =     currentPaint.Data[1].Barcode.ToString();
-
-                    add.baseBox3.Text =   currentPaint.Data[2].Base;
-                    add.volumeBox3.Text = currentPaint.Data[2].Volume.ToString();
-                    add.bcBox3.Text =     currentPaint.Data[2].Barcode.ToString();
-
-                    add.baseBox4.Text =   currentPaint.Data[3].Base;
-                    add.volumeBox4.Text = currentPaint.Data[3].Volume.ToString();
-                    add.bcBox4.Text =     currentPaint.Data[3].Barcode.ToString();
-
-                    add.baseBox5.Text =   currentPaint.Data[4].Base;
-                    add.volumeBox5.Text = currentPaint.Data[4].Volume.ToString();
-                    add.bcBox5.Text =     currentPaint.Data[4].Barcode.ToString();
-                    break;
-                case 6:
-                    add.baseBox1.Text =   currentPaint.Data[0].Base;
-                    add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
-                    add.bcBox1.Text =     currentPaint.Data[0].Barcode.ToString();
-
-                    add.baseBox2.Text =   currentPaint.Data[1].Base;
-                    add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString();
-                    add.bcBox2.Text =     currentPaint.Data[1].Barcode.ToString();
-
-                    add.baseBox3.Text =   currentPaint.Data[2].Base;
-                    add.volumeBox3.Text = currentPaint.Data[2].Volume.ToString();
-                    add.bcBox3.Text =     currentPaint.Data[2].Barcode.ToString();
-
-                    add.baseBox4.Text =   currentPaint.Data[3].Base;
-                    add.volumeBox4.Text = currentPaint.Data[3].Volume.ToString();
-                    add.bcBox4.Text =     currentPaint.Data[3].Barcode.ToString();
-
-                    add.baseBox5.Text =   currentPaint.Data[4].Base;
-                    add.volumeBox5.Text = currentPaint.Data[4].Volume.ToString();
-                    add.bcBox5.Text =     currentPaint.Data[4].Barcode.ToString();
-
-                    add.baseBox6.Text =   currentPaint.Data[5].Base;
-                    add.volumeBox6.Text = currentPaint.Data[5].Volume.ToString();
-                    add.bcBox6.Text =     currentPaint.Data[5].Barcode.ToString();
-                    break;
-            }
-
+            add.baseBox6.Text = currentPaint.Data[5].Base;
+            add.volumeBox6.Text = currentPaint.Data[5].Volume.ToString();
+            add.bcBox6.Text = currentPaint.Data[5].Barcode.ToString();
+            
             add.Show();
         }
     }

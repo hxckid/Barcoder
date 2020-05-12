@@ -14,7 +14,7 @@
       </ProductData>
       <ProductData>
         <Base>A</Base>
-        <Volume>9</Volume>
+        <Volume>9.0</Volume>
         <Barcode>15857</Barcode>
       </ProductData>
       <ProductData>
@@ -26,6 +26,11 @@
         <Base>C</Base>
         <Volume>2.7</Volume>
         <Barcode>15854</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>Tikkurila</Brand>
@@ -45,7 +50,7 @@
       </ProductData>
       <ProductData>
         <Base>A</Base>
-        <Volume>9</Volume>
+        <Volume>9.0</Volume>
         <Barcode>16036</Barcode>
       </ProductData>
       <ProductData>
@@ -60,7 +65,7 @@
       </ProductData>
       <ProductData>
         <Base>C</Base>
-        <Volume>9</Volume>
+        <Volume>9.0</Volume>
         <Barcode>16039</Barcode>
       </ProductData>
     </Data>
@@ -71,26 +76,36 @@
     <Data>
       <ProductData>
         <Base>ORO</Base>
-        <Volume>1</Volume>
+        <Volume>1.0</Volume>
         <Barcode>19194</Barcode>
       </ProductData>
       <ProductData>
-        <Base>ARGENTO</Base>
-        <Volume>1</Volume>
+        <Base>ARG</Base>
+        <Volume>1.0</Volume>
         <Barcode>19196</Barcode>
       </ProductData>
       <ProductData>
-        <Base>ARGENTO</Base>
-        <Volume>3</Volume>
+        <Base>ARG</Base>
+        <Volume>3.0</Volume>
         <Barcode>19197</Barcode>
       </ProductData>
       <ProductData>
-        <Base>BRONZO</Base>
-        <Volume>1</Volume>
+        <Base>BRO</Base>
+        <Volume>1.0</Volume>
         <Barcode>25000</Barcode>
       </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
     </Data>
-    <Brand>Rosseti</Brand>
+    <Brand>Rossetti</Brand>
     <Product>Karma</Product>
   </Paint>
 </ArrayOfPaint>

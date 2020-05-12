@@ -25,14 +25,21 @@ namespace Barcoder
     public class ProductData
     {
         public string Base { get; set; }
-        public float Volume { get; set; }
-        public int Barcode { get; set; }
+        public string Volume { get; set; }
+        public string Barcode { get; set; }
 
         public ProductData()
         {
-            Base = "New Base";
-            Volume = 0;
-            Barcode = 0;
+            Base = "";
+            Volume = "";
+            Barcode = "";
+        }
+
+        public ProductData(string _base, string _volume, string _barcode)
+        {
+            Base = _base;
+            Volume = _volume;
+            Barcode = _barcode;
         }
     }
 }

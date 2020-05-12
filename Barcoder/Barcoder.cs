@@ -37,7 +37,7 @@ namespace Barcoder
 
             foreach (var paint in db)
             {
-                if(paint.Brand.Equals(brandsBox.SelectedItem.ToString()))
+                if (paint.Brand.Equals(brandsBox.SelectedItem.ToString()))
                 {
                     productsBox.Items.Add(paint.Product);
                 }
@@ -55,7 +55,11 @@ namespace Barcoder
                 {
                     foreach (var data in paint.Data)
                     {
-                        dataBox.Items.Add($"{data.Base} | {data.Volume.ToString("F1")} | {data.Barcode}");
+                        if(data.Volume == "")
+                        {
+                            continue;
+                        }
+                        dataBox.Items.Add($"{data.Base} | {data.Volume} | {data.Barcode}");
                     }
                 }
             }
@@ -66,27 +70,31 @@ namespace Barcoder
             Paint first = new Paint();
             first.Brand = "Tikkurila";
             first.Product = "Harmony";
-            first.Data.Add(new ProductData() { Base = "A", Volume = 0.9f, Barcode = 15859 });
-            first.Data.Add(new ProductData() { Base = "A", Volume = 2.7f, Barcode = 15858 });
-            first.Data.Add(new ProductData() { Base = "A", Volume = 9.0f, Barcode = 15857 });
-            first.Data.Add(new ProductData() { Base = "C", Volume = 0.9f, Barcode = 15855 });
-            first.Data.Add(new ProductData() { Base = "C", Volume = 2.7f, Barcode = 15854 });
+            first.Data.Add(new ProductData() { Base = "A", Volume = "0.9", Barcode = "15859" });
+            first.Data.Add(new ProductData() { Base = "A", Volume = "2.7", Barcode = "15858" });
+            first.Data.Add(new ProductData() { Base = "A", Volume = "9.0", Barcode = "15857" });
+            first.Data.Add(new ProductData() { Base = "C", Volume = "0.9", Barcode = "15855" });
+            first.Data.Add(new ProductData() { Base = "C", Volume = "2.7", Barcode = "15854" });
+            first.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+
             Paint second = new Paint();
             second.Brand = "Tikkurila";
             second.Product = "Euro Matt 3";
-            second.Data.Add(new ProductData() { Base = "A", Volume = 0.9f, Barcode = 16034 });
-            second.Data.Add(new ProductData() { Base = "A", Volume = 2.7f, Barcode = 16035 });
-            second.Data.Add(new ProductData() { Base = "A", Volume = 9.0f, Barcode = 16036 });
-            second.Data.Add(new ProductData() { Base = "C", Volume = 0.9f, Barcode = 16037 });
-            second.Data.Add(new ProductData() { Base = "C", Volume = 2.7f, Barcode = 16038 });
-            second.Data.Add(new ProductData() { Base = "C", Volume = 9.0f, Barcode = 16039 });
+            second.Data.Add(new ProductData() { Base = "A", Volume = "0.9", Barcode = "16034" });
+            second.Data.Add(new ProductData() { Base = "A", Volume = "2.7", Barcode = "16035" });
+            second.Data.Add(new ProductData() { Base = "A", Volume = "9.0", Barcode = "16036" });
+            second.Data.Add(new ProductData() { Base = "C", Volume = "0.9", Barcode = "16037" });
+            second.Data.Add(new ProductData() { Base = "C", Volume = "2.7", Barcode = "16038" });
+            second.Data.Add(new ProductData() { Base = "C", Volume = "9.0", Barcode = "16039" });
             Paint third = new Paint();
-            third.Brand = "Rosseti";
+            third.Brand = "Rossetti";
             third.Product = "Karma";
-            third.Data.Add(new ProductData() { Base = "ORO", Volume = 1.0f, Barcode = 19194 });
-            third.Data.Add(new ProductData() { Base = "ARGENTO", Volume = 1.0f, Barcode = 19196 });
-            third.Data.Add(new ProductData() { Base = "ARGENTO", Volume = 3.0f, Barcode = 19197 });
-            third.Data.Add(new ProductData() { Base = "BRONZO", Volume = 1.0f, Barcode = 25000 });
+            third.Data.Add(new ProductData() { Base = "ORO", Volume = "1.0", Barcode = "19194" });
+            third.Data.Add(new ProductData() { Base = "ARG", Volume = "1.0", Barcode = "19196" });
+            third.Data.Add(new ProductData() { Base = "ARG", Volume = "3.0", Barcode = "19197" });
+            third.Data.Add(new ProductData() { Base = "BRO", Volume = "1.0", Barcode = "25000" });
+            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
             db.Add(first);
             db.Add(second);
             db.Add(third);
@@ -100,9 +108,12 @@ namespace Barcoder
 
         private void dataBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (dataBox.SelectedItem == null)
+                return;
+
             string barcode = dataBox.SelectedItem.ToString().Substring(dataBox.SelectedItem.ToString().Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
-            label.Text = $"{barcode} скопирован в буфер обмена";
+            label.Text = $"Скопирован: {barcode}";
         }
     }
 }
