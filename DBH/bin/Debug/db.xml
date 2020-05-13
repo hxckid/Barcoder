@@ -32,6 +32,16 @@
         <Volume />
         <Barcode />
       </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
     </Data>
     <Brand>Tikkurila</Brand>
     <Product>Harmony</Product>
@@ -68,6 +78,16 @@
         <Volume>9.0</Volume>
         <Barcode>16039</Barcode>
       </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
     </Data>
     <Brand>Tikkurila</Brand>
     <Product>Euro Matt 3</Product>
@@ -93,6 +113,16 @@
         <Base>BRO</Base>
         <Volume>1.0</Volume>
         <Barcode>25000</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />

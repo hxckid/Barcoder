@@ -58,6 +58,16 @@ namespace DBH
             else
                 paint.Data.Add(new ProductData(baseBox6.Text, volumeBox6.Text, bcBox6.Text));
 
+            if (string.IsNullOrEmpty(volumeBox7.Text) || string.IsNullOrEmpty(bcBox7.Text))
+                paint.Data.Add(new ProductData());
+            else
+                paint.Data.Add(new ProductData(baseBox7.Text, volumeBox7.Text, bcBox7.Text));
+
+            if (string.IsNullOrEmpty(volumeBox8.Text) || string.IsNullOrEmpty(bcBox8.Text))
+                paint.Data.Add(new ProductData());
+            else
+                paint.Data.Add(new ProductData(baseBox8.Text, volumeBox8.Text, bcBox8.Text));
+
             RemoveOld(paint);
 
             Helper.db.Add(paint);

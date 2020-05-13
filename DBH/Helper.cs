@@ -130,7 +130,15 @@ namespace DBH
             add.baseBox6.Text = currentPaint.Data[5].Base;
             add.volumeBox6.Text = currentPaint.Data[5].Volume.ToString();
             add.bcBox6.Text = currentPaint.Data[5].Barcode.ToString();
-            
+
+            add.baseBox7.Text = currentPaint.Data[6].Base;
+            add.volumeBox7.Text = currentPaint.Data[6].Volume.ToString();
+            add.bcBox7.Text = currentPaint.Data[6].Barcode.ToString();
+
+            add.baseBox8.Text = currentPaint.Data[7].Base;
+            add.volumeBox8.Text = currentPaint.Data[7].Volume.ToString();
+            add.bcBox8.Text = currentPaint.Data[7].Barcode.ToString();
+
             add.Show();
         }
     }

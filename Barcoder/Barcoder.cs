@@ -16,10 +16,13 @@ namespace Barcoder
     {
         List<Paint> db = new List<Paint>();
         XmlSerializer formatter = new XmlSerializer(typeof(List<Paint>));
+        List<Button> btnList = new List<Button>();
 
         public Barcoder()
         {
             InitializeComponent();
+            InitializeButtons();
+            LockAndClearButtons();
             //IniializeDB();
 
             using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate))
@@ -28,11 +31,23 @@ namespace Barcoder
             }
         }
 
+        private void InitializeButtons()
+        {
+            btnList.Add(dataBtn1);
+            btnList.Add(dataBtn2);
+            btnList.Add(dataBtn3);
+            btnList.Add(dataBtn4);
+            btnList.Add(dataBtn5);
+            btnList.Add(dataBtn6);
+            btnList.Add(dataBtn7);
+            btnList.Add(dataBtn8);
+        }
+
         private void brandsBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             productsBox.Items.Clear();
             productsBox.Text = "";
-            dataBox.Items.Clear();
+            LockAndClearButtons();
             label.Text = string.Empty;
 
             foreach (var paint in db)
@@ -46,20 +61,56 @@ namespace Barcoder
 
         private void productsBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            dataBox.Items.Clear();
-            label.Text = "";
+            LockAndClearButtons();
+            label.Text = string.Empty;
 
             foreach (var paint in db)
             {
                 if (productsBox.SelectedItem.Equals(paint.Product))
                 {
-                    foreach (var data in paint.Data)
+                    for (int i = 0; i < paint.Data.Count; i++)
                     {
-                        if(data.Volume == "")
+                        if (!string.IsNullOrEmpty(paint.Data[i].Base) && !string.IsNullOrEmpty(paint.Data[i].Volume) && !string.IsNullOrEmpty(paint.Data[i].Barcode))
                         {
-                            continue;
+                            string curBase = paint.Data[i].Base.ToUpper();
+                            btnList[i].Visible = true;
+                            btnList[i].Text = $"{paint.Data[i].Base}  |  {paint.Data[i].Volume}  |  {paint.Data[i].Barcode}";
+                            switch (curBase)
+                            {
+                                case "A":
+                                case "AP":
+                                case "BB":
+                                case "BT":
+                                case "BW":
+                                    btnList[i].BackColor = Color.White;
+                                    break;
+                                case "BC":
+                                case "C":
+                                case "TR":
+                                    btnList[i].BackColor = Color.Red;
+                                    break;
+                                case "EP":
+                                case "NEU":
+                                    btnList[i].BackColor = Color.Lavender;
+                                    break;
+                                case "ORO":
+                                    btnList[i].BackColor = Color.Gold;
+                                    break;
+                                case "ARG":
+                                    btnList[i].BackColor = Color.Silver;
+                                    break;
+                                case "BRO":
+                                    btnList[i].BackColor = Color.DarkOrange;
+                                    break;
+                                case "PER":
+                                case "DD":
+                                    btnList[i].BackColor = Color.LightCyan;
+                                    break;
+                                default:
+                                    btnList[i].BackColor = Color.White;
+                                    break;
+                            }
                         }
-                        dataBox.Items.Add($"{data.Base} | {data.Volume} | {data.Barcode}");
                     }
                 }
             }
@@ -76,6 +127,8 @@ namespace Barcoder
             first.Data.Add(new ProductData() { Base = "C", Volume = "0.9", Barcode = "15855" });
             first.Data.Add(new ProductData() { Base = "C", Volume = "2.7", Barcode = "15854" });
             first.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            first.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            first.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
 
             Paint second = new Paint();
             second.Brand = "Tikkurila";
@@ -86,6 +139,8 @@ namespace Barcoder
             second.Data.Add(new ProductData() { Base = "C", Volume = "0.9", Barcode = "16037" });
             second.Data.Add(new ProductData() { Base = "C", Volume = "2.7", Barcode = "16038" });
             second.Data.Add(new ProductData() { Base = "C", Volume = "9.0", Barcode = "16039" });
+            second.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            second.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
             Paint third = new Paint();
             third.Brand = "Rossetti";
             third.Product = "Karma";
@@ -93,6 +148,8 @@ namespace Barcoder
             third.Data.Add(new ProductData() { Base = "ARG", Volume = "1.0", Barcode = "19196" });
             third.Data.Add(new ProductData() { Base = "ARG", Volume = "3.0", Barcode = "19197" });
             third.Data.Add(new ProductData() { Base = "BRO", Volume = "1.0", Barcode = "25000" });
+            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
             third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
             third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
             db.Add(first);
@@ -106,12 +163,70 @@ namespace Barcoder
             }
         }
 
-        private void dataBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void LockAndClearButtons()
         {
-            if (dataBox.SelectedItem == null)
-                return;
+            dataBtn1.Visible = false;
+            dataBtn2.Visible = false;
+            dataBtn3.Visible = false;
+            dataBtn4.Visible = false;
+            dataBtn5.Visible = false;
+            dataBtn6.Visible = false;
+            dataBtn7.Visible = false;
+            dataBtn8.Visible = false;
+        }
 
-            string barcode = dataBox.SelectedItem.ToString().Substring(dataBox.SelectedItem.ToString().Length - 5);
+        private void dataBtn1_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn1.Text.Substring(dataBtn3.Text.Length - 5);
+            Clipboard.SetData(DataFormats.Text, barcode);
+            label.Text = $"Скопирован: {barcode}";
+        }
+
+        private void dataBtn2_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn2.Text.Substring(dataBtn3.Text.Length - 5);
+            Clipboard.SetData(DataFormats.Text, barcode);
+            label.Text = $"Скопирован: {barcode}";
+        }
+
+        private void dataBtn3_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn3.Text.Substring(dataBtn3.Text.Length - 5);
+            Clipboard.SetData(DataFormats.Text, barcode);
+            label.Text = $"Скопирован: {barcode}";
+        }
+
+        private void dataBtn4_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn4.Text.Substring(dataBtn3.Text.Length - 5);
+            Clipboard.SetData(DataFormats.Text, barcode);
+            label.Text = $"Скопирован: {barcode}";
+        }
+
+        private void dataBtn5_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn5.Text.Substring(dataBtn3.Text.Length - 5);
+            Clipboard.SetData(DataFormats.Text, barcode);
+            label.Text = $"Скопирован: {barcode}";
+        }
+
+        private void dataBtn6_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn6.Text.Substring(dataBtn3.Text.Length - 5);
+            Clipboard.SetData(DataFormats.Text, barcode);
+            label.Text = $"Скопирован: {barcode}";
+        }
+
+        private void dataBtn7_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn7.Text.Substring(dataBtn3.Text.Length - 5);
+            Clipboard.SetData(DataFormats.Text, barcode);
+            label.Text = $"Скопирован: {barcode}";
+        }
+
+        private void dataBtn8_Click(object sender, EventArgs e)
+        {
+            string barcode = dataBtn8.Text.Substring(dataBtn3.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }

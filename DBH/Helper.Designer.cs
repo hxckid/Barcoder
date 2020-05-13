@@ -41,6 +41,7 @@
             // 
             // addBtn
             // 
+            this.addBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addBtn.Location = new System.Drawing.Point(13, 401);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(75, 23);
@@ -51,6 +52,7 @@
             // 
             // removeBtn
             // 
+            this.removeBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.removeBtn.Location = new System.Drawing.Point(177, 402);
             this.removeBtn.Name = "removeBtn";
             this.removeBtn.Size = new System.Drawing.Size(75, 23);
@@ -63,9 +65,9 @@
             // 
             this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.brandsBox.BackColor = System.Drawing.Color.DodgerBlue;
-            this.brandsBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.brandsBox.ForeColor = System.Drawing.SystemColors.Window;
+            this.brandsBox.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.brandsBox.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
             "Aura",
@@ -93,9 +95,9 @@
             // 
             // productsBox
             // 
-            this.productsBox.BackColor = System.Drawing.Color.DodgerBlue;
-            this.productsBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.productsBox.ForeColor = System.Drawing.SystemColors.Window;
+            this.productsBox.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.productsBox.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.productsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.productsBox.FormattingEnabled = true;
             this.productsBox.ItemHeight = 19;
             this.productsBox.Location = new System.Drawing.Point(13, 41);
@@ -116,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.BackColor = System.Drawing.Color.DodgerBlue;
             this.ClientSize = new System.Drawing.Size(268, 437);
             this.Controls.Add(this.productsBox);
             this.Controls.Add(this.brandsBox);
