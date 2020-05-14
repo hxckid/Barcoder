@@ -1,4 +1,3 @@
-C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.csprojAssemblyReference.cache
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.Barcoder.resources
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.Properties.Resources.resources
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.csproj.GenerateResource.cache
