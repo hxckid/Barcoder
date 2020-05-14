@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddForm));
             this.brandBox = new System.Windows.Forms.ComboBox();
             this.productBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,23 +73,9 @@
             this.brandBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandBox.FormattingEnabled = true;
             this.brandBox.Items.AddRange(new object[] {
-            "Aura",
-            "Dulux",
-            "Eskaro",
             "Finncolor",
-            "Hammerite",
-            "Holzer",
-            "Marshall",
-            "Parade",
-            "Pinotex",
-            "Rosetti",
             "TEKC",
-            "Teknos",
-            "Tikkurila",
-            "Vekker",
-            "Vincent",
-            "Лакра",
-            "Текстурол"});
+            "Tikkurila"});
             this.brandBox.Location = new System.Drawing.Point(47, 31);
             this.brandBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.brandBox.Name = "brandBox";
@@ -109,7 +96,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(108, 11);
+            this.label1.Location = new System.Drawing.Point(110, 10);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 16);
@@ -128,19 +115,19 @@
             // 
             // baseBox1
             // 
-            this.baseBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox1.FormattingEnabled = true;
             this.baseBox1.Items.AddRange(new object[] {
-            "",
             "A",
             "AP",
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -249,7 +236,7 @@
             // 
             // baseBox2
             // 
-            this.baseBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -261,6 +248,7 @@
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -309,7 +297,7 @@
             // 
             // baseBox3
             // 
-            this.baseBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -321,6 +309,7 @@
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -369,7 +358,7 @@
             // 
             // baseBox4
             // 
-            this.baseBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -381,6 +370,7 @@
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -429,7 +419,7 @@
             // 
             // baseBox5
             // 
-            this.baseBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox5.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -441,6 +431,7 @@
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -489,7 +480,7 @@
             // 
             // baseBox6
             // 
-            this.baseBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox6.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -501,6 +492,7 @@
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -543,7 +535,7 @@
             // 
             // baseBox7
             // 
-            this.baseBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox7.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -555,6 +547,7 @@
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -603,7 +596,7 @@
             // 
             // baseBox8
             // 
-            this.baseBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.baseBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox8.BackColor = System.Drawing.Color.LightSteelBlue;
             this.baseBox8.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -615,6 +608,7 @@
             "BC",
             "BW",
             "C",
+            "D",
             "EP",
             "TR",
             "ORO",
@@ -665,7 +659,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(279, 470);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.saveBtn);
@@ -701,10 +695,13 @@
             this.Controls.Add(this.productBox);
             this.Controls.Add(this.brandBox);
             this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ForeColor = System.Drawing.SystemColors.Window;
+            this.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "AddForm";
             this.Text = "Database Helper";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

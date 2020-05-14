@@ -8,3 +8,17 @@ C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Debug\Barcoder.exe
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Debug\Barcoder.pdb
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.exe
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.pdb
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\bin\Debug\Barcoder.exe.config
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\bin\Debug\Barcoder.exe
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\bin\Debug\Barcoder.pdb
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.Barcoder.resources
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.Properties.Resources.resources
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.csproj.GenerateResource.cache
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.csproj.CoreCompileInputs.cache
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.exe
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.pdb
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\bin\Debug\Barcoder.exe.manifest
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\bin\Debug\Barcoder.application
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.csprojAssemblyReference.cache
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.exe.manifest
+C:\Users\Tikkurila\Documents\barcoder\Barcoder\obj\Debug\Barcoder.application

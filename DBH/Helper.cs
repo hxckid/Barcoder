@@ -105,38 +105,37 @@ namespace DBH
             add.brandBox.Enabled = false;
             add.productBox.Text = currentPaint.Product;
             add.productBox.Enabled = false;
-            add.productBox.ForeColor = Color.Black;
 
-            add.baseBox1.Text =  currentPaint.Data[0].Base;
-            add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString();
+            add.baseBox1.Text =  currentPaint.Data[0].Base.Replace(" ","");
+            add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString().Replace(" ","");;
             add.bcBox1.Text = currentPaint.Data[0].Barcode.ToString();
 
-            add.baseBox2.Text = currentPaint.Data[1].Base;
-            add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString();
+            add.baseBox2.Text = currentPaint.Data[1].Base.Replace(" ","");;
+            add.volumeBox2.Text = currentPaint.Data[1].Volume.ToString().Replace(" ","");;
             add.bcBox2.Text = currentPaint.Data[1].Barcode.ToString();
 
-            add.baseBox3.Text = currentPaint.Data[2].Base;
-            add.volumeBox3.Text = currentPaint.Data[2].Volume.ToString();
+            add.baseBox3.Text = currentPaint.Data[2].Base.Replace(" ","");;
+            add.volumeBox3.Text = currentPaint.Data[2].Volume.ToString().Replace(" ","");;
             add.bcBox3.Text = currentPaint.Data[2].Barcode.ToString();
 
-            add.baseBox4.Text = currentPaint.Data[3].Base;
-            add.volumeBox4.Text = currentPaint.Data[3].Volume.ToString();
+            add.baseBox4.Text = currentPaint.Data[3].Base.Replace(" ","");;
+            add.volumeBox4.Text = currentPaint.Data[3].Volume.ToString().Replace(" ","");;
             add.bcBox4.Text = currentPaint.Data[3].Barcode.ToString();
 
-            add.baseBox5.Text = currentPaint.Data[4].Base;
-            add.volumeBox5.Text = currentPaint.Data[4].Volume.ToString();
+            add.baseBox5.Text = currentPaint.Data[4].Base.Replace(" ","");;
+            add.volumeBox5.Text = currentPaint.Data[4].Volume.ToString().Replace(" ","");;
             add.bcBox5.Text = currentPaint.Data[4].Barcode.ToString();
 
-            add.baseBox6.Text = currentPaint.Data[5].Base;
-            add.volumeBox6.Text = currentPaint.Data[5].Volume.ToString();
+            add.baseBox6.Text = currentPaint.Data[5].Base.Replace(" ","");;
+            add.volumeBox6.Text = currentPaint.Data[5].Volume.ToString().Replace(" ","");;
             add.bcBox6.Text = currentPaint.Data[5].Barcode.ToString();
 
-            add.baseBox7.Text = currentPaint.Data[6].Base;
-            add.volumeBox7.Text = currentPaint.Data[6].Volume.ToString();
+            add.baseBox7.Text = currentPaint.Data[6].Base.Replace(" ","");;
+            add.volumeBox7.Text = currentPaint.Data[6].Volume.ToString().Replace(" ","");;
             add.bcBox7.Text = currentPaint.Data[6].Barcode.ToString();
 
-            add.baseBox8.Text = currentPaint.Data[7].Base;
-            add.volumeBox8.Text = currentPaint.Data[7].Volume.ToString();
+            add.baseBox8.Text = currentPaint.Data[7].Base.Replace(" ","");;
+            add.volumeBox8.Text = currentPaint.Data[7].Volume.ToString().Replace(" ","");;
             add.bcBox8.Text = currentPaint.Data[7].Barcode.ToString();
 
             add.Show();

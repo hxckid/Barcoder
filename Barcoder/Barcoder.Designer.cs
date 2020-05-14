@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Barcoder));
             this.brandsBox = new System.Windows.Forms.ComboBox();
             this.productsBox = new System.Windows.Forms.ComboBox();
             this.label = new System.Windows.Forms.Label();
@@ -64,30 +65,17 @@
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.brandsBox.BackColor = System.Drawing.Color.LightSteelBlue;
             this.brandsBox.DisplayMember = "Brand";
-            this.brandsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.brandsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
-            "Aura",
-            "Dulux",
-            "Eskaro",
             "Finncolor",
-            "Hammerite",
-            "Holzer",
-            "Marshall",
-            "Parade",
-            "Pinotex",
-            "Rossetti",
             "TEKC",
-            "Tikkurila",
-            "Vekker",
-            "Vincent",
-            "Лакра",
-            "Текстурол"});
+            "Tikkurila"});
             this.brandsBox.Location = new System.Drawing.Point(10, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
-            this.brandsBox.Size = new System.Drawing.Size(190, 31);
+            this.brandsBox.Size = new System.Drawing.Size(190, 27);
             this.brandsBox.Sorted = true;
             this.brandsBox.TabIndex = 0;
             this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
@@ -97,13 +85,12 @@
             this.productsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.productsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.productsBox.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.productsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.productsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.productsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.productsBox.FormattingEnabled = true;
             this.productsBox.Location = new System.Drawing.Point(10, 50);
-            this.productsBox.MaxDropDownItems = 100;
             this.productsBox.Name = "productsBox";
-            this.productsBox.Size = new System.Drawing.Size(190, 31);
+            this.productsBox.Size = new System.Drawing.Size(190, 27);
             this.productsBox.Sorted = true;
             this.productsBox.TabIndex = 1;
             this.productsBox.SelectedIndexChanged += new System.EventHandler(this.productsBox_SelectedIndexChanged);
@@ -112,7 +99,7 @@
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.label.ForeColor = System.Drawing.SystemColors.Window;
             this.label.Location = new System.Drawing.Point(33, 432);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(0, 22);
@@ -202,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(213, 463);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
@@ -216,8 +203,10 @@
             this.Controls.Add(this.productsBox);
             this.Controls.Add(this.brandsBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Barcoder";
-            this.Text = "Gestori Barcoder";
+            this.Text = "Barcoder";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

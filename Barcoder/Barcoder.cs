@@ -72,9 +72,11 @@ namespace Barcoder
                     {
                         if (!string.IsNullOrEmpty(paint.Data[i].Base) && !string.IsNullOrEmpty(paint.Data[i].Volume) && !string.IsNullOrEmpty(paint.Data[i].Barcode))
                         {
-                            string curBase = paint.Data[i].Base.ToUpper();
+                            string curBase = paint.Data[i].Base.ToUpper().Replace(" ", "");
+                            string curVolume = paint.Data[i].Volume.Replace(" ", "");
+                            string curBarcode = paint.Data[i].Barcode.Replace(" ", "");
                             btnList[i].Visible = true;
-                            btnList[i].Text = $"{paint.Data[i].Base}  |  {paint.Data[i].Volume}  |  {paint.Data[i].Barcode}";
+                            btnList[i].Text = $"{curBase}  |  {curVolume}  |  {curBarcode}";
                             switch (curBase)
                             {
                                 case "A":
@@ -86,8 +88,9 @@ namespace Barcoder
                                     break;
                                 case "BC":
                                 case "C":
+                                case "D":
                                 case "TR":
-                                    btnList[i].BackColor = Color.Red;
+                                    btnList[i].BackColor = Color.IndianRed;
                                     break;
                                 case "EP":
                                 case "NEU":

@@ -29,10 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Helper));
             this.addBtn = new System.Windows.Forms.Button();
             this.removeBtn = new System.Windows.Forms.Button();
             this.brandsBox = new System.Windows.Forms.ComboBox();
             this.productsBox = new System.Windows.Forms.ListBox();
+            this.editBtn = new System.Windows.Forms.Button();
             this.barcoderBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.barcoderBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.barcoderBindingSource1)).BeginInit();
@@ -42,7 +44,8 @@
             // addBtn
             // 
             this.addBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.addBtn.Location = new System.Drawing.Point(13, 401);
+            this.addBtn.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.addBtn.Location = new System.Drawing.Point(14, 401);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(75, 23);
             this.addBtn.TabIndex = 3;
@@ -53,6 +56,7 @@
             // removeBtn
             // 
             this.removeBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.removeBtn.ForeColor = System.Drawing.SystemColors.WindowText;
             this.removeBtn.Location = new System.Drawing.Point(177, 402);
             this.removeBtn.Name = "removeBtn";
             this.removeBtn.Size = new System.Drawing.Size(75, 23);
@@ -70,26 +74,13 @@
             this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
-            "Aura",
-            "Dulux",
-            "Eskaro",
             "Finncolor",
-            "Hammerite",
-            "Holzer",
-            "Marshall",
-            "Parade",
-            "Pinotex",
-            "Rossetti",
             "TEKC",
-            "Tikkurila",
-            "Vekker",
-            "Vincent",
-            "Лакра",
-            "Текстурол"});
-            this.brandsBox.Location = new System.Drawing.Point(13, 13);
+            "Tikkurila"});
+            this.brandsBox.Location = new System.Drawing.Point(14, 13);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
-            this.brandsBox.Size = new System.Drawing.Size(239, 27);
+            this.brandsBox.Size = new System.Drawing.Size(240, 27);
             this.brandsBox.TabIndex = 1;
             this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
             // 
@@ -100,11 +91,23 @@
             this.productsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.productsBox.FormattingEnabled = true;
             this.productsBox.ItemHeight = 19;
-            this.productsBox.Location = new System.Drawing.Point(13, 41);
+            this.productsBox.Location = new System.Drawing.Point(14, 41);
             this.productsBox.Name = "productsBox";
-            this.productsBox.Size = new System.Drawing.Size(239, 346);
+            this.productsBox.Size = new System.Drawing.Size(240, 346);
             this.productsBox.TabIndex = 2;
             this.productsBox.DoubleClick += new System.EventHandler(this.editBtn_Click);
+            // 
+            // editBtn
+            // 
+            this.editBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.editBtn.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.editBtn.Location = new System.Drawing.Point(94, 402);
+            this.editBtn.Name = "editBtn";
+            this.editBtn.Size = new System.Drawing.Size(75, 23);
+            this.editBtn.TabIndex = 5;
+            this.editBtn.Text = "Изменить";
+            this.editBtn.UseVisualStyleBackColor = true;
+            this.editBtn.Click += new System.EventHandler(this.editBtn_Click);
             // 
             // barcoderBindingSource1
             // 
@@ -118,13 +121,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(268, 437);
+            this.Controls.Add(this.editBtn);
             this.Controls.Add(this.productsBox);
             this.Controls.Add(this.brandsBox);
             this.Controls.Add(this.removeBtn);
             this.Controls.Add(this.addBtn);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Helper";
             this.Text = "Database Helper";
             this.Activated += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
@@ -142,6 +148,7 @@
         private System.Windows.Forms.BindingSource barcoderBindingSource1;
         private System.Windows.Forms.ListBox productsBox;
         private System.Windows.Forms.BindingSource barcoderBindingSource;
+        private System.Windows.Forms.Button editBtn;
     }
 }
 
