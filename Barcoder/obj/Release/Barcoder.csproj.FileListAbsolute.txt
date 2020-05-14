@@ -1,0 +1,13 @@
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Release\Barcoder.exe.config
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Release\Barcoder.exe.manifest
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Release\Barcoder.application
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Release\Barcoder.exe
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Release\Barcoder.pdb
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.Barcoder.resources
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.Properties.Resources.resources
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.csproj.GenerateResource.cache
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.csproj.CoreCompileInputs.cache
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.exe.manifest
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.application
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.exe
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Release\Barcoder.pdb
