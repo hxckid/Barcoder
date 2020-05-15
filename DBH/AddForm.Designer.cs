@@ -124,24 +124,30 @@
             this.baseBox1.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox1.Location = new System.Drawing.Point(14, 169);
             this.baseBox1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox1.Name = "baseBox1";
             this.baseBox1.Size = new System.Drawing.Size(69, 26);
+            this.baseBox1.Sorted = true;
             this.baseBox1.TabIndex = 2;
             // 
             // volumeBox1
@@ -245,24 +251,30 @@
             this.baseBox2.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox2.Location = new System.Drawing.Point(14, 202);
             this.baseBox2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox2.Name = "baseBox2";
             this.baseBox2.Size = new System.Drawing.Size(69, 26);
+            this.baseBox2.Sorted = true;
             this.baseBox2.TabIndex = 5;
             // 
             // bcBox3
@@ -306,24 +318,30 @@
             this.baseBox3.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox3.Location = new System.Drawing.Point(14, 235);
             this.baseBox3.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox3.Name = "baseBox3";
             this.baseBox3.Size = new System.Drawing.Size(69, 26);
+            this.baseBox3.Sorted = true;
             this.baseBox3.TabIndex = 8;
             // 
             // bcBox4
@@ -367,24 +385,30 @@
             this.baseBox4.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox4.Location = new System.Drawing.Point(14, 268);
             this.baseBox4.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox4.Name = "baseBox4";
             this.baseBox4.Size = new System.Drawing.Size(69, 26);
+            this.baseBox4.Sorted = true;
             this.baseBox4.TabIndex = 11;
             // 
             // bcBox5
@@ -428,24 +452,30 @@
             this.baseBox5.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox5.Location = new System.Drawing.Point(14, 302);
             this.baseBox5.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox5.Name = "baseBox5";
             this.baseBox5.Size = new System.Drawing.Size(69, 26);
+            this.baseBox5.Sorted = true;
             this.baseBox5.TabIndex = 14;
             // 
             // bcBox6
@@ -489,24 +519,30 @@
             this.baseBox6.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox6.Location = new System.Drawing.Point(14, 335);
             this.baseBox6.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox6.Name = "baseBox6";
             this.baseBox6.Size = new System.Drawing.Size(69, 26);
+            this.baseBox6.Sorted = true;
             this.baseBox6.TabIndex = 17;
             // 
             // saveBtn
@@ -544,24 +580,30 @@
             this.baseBox7.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox7.Location = new System.Drawing.Point(14, 368);
             this.baseBox7.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox7.Name = "baseBox7";
             this.baseBox7.Size = new System.Drawing.Size(69, 26);
+            this.baseBox7.Sorted = true;
             this.baseBox7.TabIndex = 20;
             // 
             // volumeBox7
@@ -605,24 +647,30 @@
             this.baseBox8.Items.AddRange(new object[] {
             "A",
             "AP",
+            "ARG",
+            "BB",
             "BC",
+            "BRO",
+            "BT",
             "BW",
             "C",
             "D",
-            "EP",
-            "TR",
-            "ORO",
-            "ARG",
-            "BRO",
-            "BB",
             "DD",
-            "BT",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
             "PER",
-            "NEU"});
+            "TR",
+            "VC",
+            "VVA"});
             this.baseBox8.Location = new System.Drawing.Point(14, 401);
             this.baseBox8.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox8.Name = "baseBox8";
             this.baseBox8.Size = new System.Drawing.Size(69, 26);
+            this.baseBox8.Sorted = true;
             this.baseBox8.TabIndex = 23;
             // 
             // volumeBox8

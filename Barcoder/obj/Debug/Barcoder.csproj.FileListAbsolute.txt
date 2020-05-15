@@ -25,3 +25,4 @@ C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Debug\Barcoder.exe.manifest
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\bin\Debug\Barcoder.application
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.exe.manifest
 C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.application
+C:\Users\HxC\Source\Repos\barcoder\Barcoder\obj\Debug\Barcoder.csprojAssemblyReference.cache

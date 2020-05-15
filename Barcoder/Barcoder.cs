@@ -121,47 +121,23 @@ namespace Barcoder
 
         private void IniializeDB()
         {
-            Paint first = new Paint();
-            first.Brand = "Tikkurila";
-            first.Product = "Harmony";
-            first.Data.Add(new ProductData() { Base = "A", Volume = "0.9", Barcode = "15859" });
-            first.Data.Add(new ProductData() { Base = "A", Volume = "2.7", Barcode = "15858" });
-            first.Data.Add(new ProductData() { Base = "A", Volume = "9.0", Barcode = "15857" });
-            first.Data.Add(new ProductData() { Base = "C", Volume = "0.9", Barcode = "15855" });
-            first.Data.Add(new ProductData() { Base = "C", Volume = "2.7", Barcode = "15854" });
-            first.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            first.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            first.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            Paint paint = new Paint();
+            paint.Brand = "";
+            paint.Product = "";
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
+            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
 
-            Paint second = new Paint();
-            second.Brand = "Tikkurila";
-            second.Product = "Euro Matt 3";
-            second.Data.Add(new ProductData() { Base = "A", Volume = "0.9", Barcode = "16034" });
-            second.Data.Add(new ProductData() { Base = "A", Volume = "2.7", Barcode = "16035" });
-            second.Data.Add(new ProductData() { Base = "A", Volume = "9.0", Barcode = "16036" });
-            second.Data.Add(new ProductData() { Base = "C", Volume = "0.9", Barcode = "16037" });
-            second.Data.Add(new ProductData() { Base = "C", Volume = "2.7", Barcode = "16038" });
-            second.Data.Add(new ProductData() { Base = "C", Volume = "9.0", Barcode = "16039" });
-            second.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            second.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            Paint third = new Paint();
-            third.Brand = "Rossetti";
-            third.Product = "Karma";
-            third.Data.Add(new ProductData() { Base = "ORO", Volume = "1.0", Barcode = "19194" });
-            third.Data.Add(new ProductData() { Base = "ARG", Volume = "1.0", Barcode = "19196" });
-            third.Data.Add(new ProductData() { Base = "ARG", Volume = "3.0", Barcode = "19197" });
-            third.Data.Add(new ProductData() { Base = "BRO", Volume = "1.0", Barcode = "25000" });
-            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            third.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            db.Add(first);
-            db.Add(second);
-            db.Add(third);
+            db.Add(paint);
 
             using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
-                fs.SetLength(0);
+                //fs.SetLength(0);
                 formatter.Serialize(fs, db);
             }
         }

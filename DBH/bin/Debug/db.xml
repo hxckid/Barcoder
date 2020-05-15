@@ -142,52 +142,6 @@
     <Data>
       <ProductData>
         <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>25117</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>25118</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Euro Prof 2</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
         <Volume>0.9</Volume>
         <Barcode>16034</Barcode>
       </ProductData>
@@ -739,52 +693,6 @@
   <Paint>
     <Data>
       <ProductData>
-        <Base>A</Base>
-        <Volume>0.9</Volume>
-        <Barcode>17176</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>17177</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Otex</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
         <Base>EP</Base>
         <Volume>0.9</Volume>
         <Barcode>17142</Barcode>
@@ -1015,52 +923,6 @@
   <Paint>
     <Data>
       <ProductData>
-        <Base>A</Base>
-        <Volume>0.9</Volume>
-        <Barcode>16189</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>16190</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16191</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Siro Himmea</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
         <Base>EP</Base>
         <Volume>0.9</Volume>
         <Barcode>17146</Barcode>
@@ -1103,52 +965,6 @@
     </Data>
     <Brand>Tikkurila</Brand>
     <Product>Supi Sauna</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>0.9</Volume>
-        <Barcode>22224</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Supi Lattiaolju</Product>
   </Paint>
   <Paint>
     <Data>
@@ -1293,98 +1109,6 @@
       <ProductData>
         <Base>EP</Base>
         <Volume>0.9</Volume>
-        <Barcode>16334</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>2.7</Volume>
-        <Barcode>16345</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16346</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Valtti Color</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>0.9</Volume>
-        <Barcode>16348</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>2.7</Volume>
-        <Barcode>16350</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16351</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Valtti Color Satin</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>0.9</Volume>
         <Barcode>25142</Barcode>
       </ProductData>
       <ProductData>
@@ -1425,144 +1149,6 @@
     </Data>
     <Brand>Tikkurila</Brand>
     <Product>Valtti Expert Aqua</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>0.9</Volume>
-        <Barcode>22222</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume> 2.7</Volume>
-        <Barcode>22223</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Valtti Puuolju</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>0.9</Volume>
-        <Barcode>23364</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>EP</Base>
-        <Volume>2.7</Volume>
-        <Barcode>23365</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Valtti Terace Oil</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>0.9</Volume>
-        <Barcode>16352</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>16353</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16358</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>2.7</Volume>
-        <Barcode>16354</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16359</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Vinha</Product>
   </Paint>
   <Paint>
     <Data>
@@ -1701,52 +1287,6 @@
     </Data>
     <Brand>Tikkurila</Brand>
     <Product>Valtti Primer</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>0.9</Volume>
-        <Barcode>25344</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>25345</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>5.0</Volume>
-        <Barcode>25346</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>25347</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>0.9</Volume>
-        <Barcode>25545</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>2.7</Volume>
-        <Barcode>25348</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>5.0</Volume>
-        <Barcode>25349</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>9.0</Volume>
-        <Barcode>25350</Barcode>
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Facade Silicon</Product>
   </Paint>
   <Paint>
     <Data>
@@ -2119,52 +1659,6 @@
   <Paint>
     <Data>
       <ProductData>
-        <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>15917</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>15919</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>2.7</Volume>
-        <Barcode>15921</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>C</Base>
-        <Volume>9.0</Volume>
-        <Barcode>15922</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Finncolor</Brand>
-    <Product>Mineral Strong</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
         <Base>EP</Base>
         <Volume>0.9</Volume>
         <Barcode>22990</Barcode>
@@ -2207,52 +1701,6 @@
     </Data>
     <Brand>Finncolor</Brand>
     <Product>Rapan Yacht</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>3.0</Volume>
-        <Barcode>19175</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>19176</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Finncolor</Brand>
-    <Product>Super White</Product>
   </Paint>
   <Paint>
     <Data>
@@ -2457,28 +1905,28 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2498,33 +1946,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2544,33 +1992,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2590,33 +2038,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2636,33 +2084,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2697,18 +2145,18 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2728,33 +2176,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2774,33 +2222,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2830,23 +2278,23 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2871,28 +2319,28 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2912,33 +2360,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -2968,23 +2416,23 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -3019,18 +2467,18 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -3050,33 +2498,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -3091,38 +2539,38 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -3142,33 +2590,33 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
@@ -3183,41 +2631,593 @@
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
       <ProductData>
         <Base />
-        <Volume> </Volume>
-        <Barcode> </Barcode>
+        <Volume />
+        <Barcode />
       </ProductData>
     </Data>
     <Brand>TEKC</Brand>
     <Product>Эмаль ПФ-115</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>2.7</Volume>
+        <Barcode>25117</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>9.0</Volume>
+        <Barcode>25118</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Euro Prof 2</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>0.9</Volume>
+        <Barcode>25344</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>2.7</Volume>
+        <Barcode>25345</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>5.0</Volume>
+        <Barcode>25346</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>9.0</Volume>
+        <Barcode>25347</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>25545</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>25348</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>5.0</Volume>
+        <Barcode>25349</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>25350</Barcode>
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Facade Silicon</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>AP</Base>
+        <Volume>0.9</Volume>
+        <Barcode>17176</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>AP</Base>
+        <Volume>2.7</Volume>
+        <Barcode>17177</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Otex</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>AP</Base>
+        <Volume>0.9</Volume>
+        <Barcode>16189</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>AP</Base>
+        <Volume>2.7</Volume>
+        <Barcode>16190</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>AP</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16191</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Siro Himmea</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>22224</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Supi Lattiaolju</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>16334</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>16345</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16346</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Valtti Color</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>16348</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>16350</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16351</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Valtti Color Satin</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>22222</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>22223</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Valtti Puuolju</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>23364</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>23365</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Valtti Terace Oil</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>0.9</Volume>
+        <Barcode>16352</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>2.7</Volume>
+        <Barcode>16353</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VVA</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16358</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>16354</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>VC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16359</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Vinha</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>MRA</Base>
+        <Volume>2.7</Volume>
+        <Barcode>15917</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>MRA</Base>
+        <Volume>9.0</Volume>
+        <Barcode>15919</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>MRC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>15921</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>MRC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>15922</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Finncolor</Brand>
+    <Product>Mineral Strong</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>3.0</Volume>
+        <Barcode>19175</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>19176</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Finncolor</Brand>
+    <Product>Super White</Product>
   </Paint>
 </ArrayOfPaint>

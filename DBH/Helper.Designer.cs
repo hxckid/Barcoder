@@ -45,9 +45,9 @@
             // 
             this.addBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addBtn.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.addBtn.Location = new System.Drawing.Point(14, 401);
+            this.addBtn.Location = new System.Drawing.Point(15, 400);
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(75, 23);
+            this.addBtn.Size = new System.Drawing.Size(75, 25);
             this.addBtn.TabIndex = 3;
             this.addBtn.Text = "Добавить";
             this.addBtn.UseVisualStyleBackColor = true;
@@ -57,10 +57,10 @@
             // 
             this.removeBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.removeBtn.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.removeBtn.Location = new System.Drawing.Point(177, 402);
+            this.removeBtn.Location = new System.Drawing.Point(175, 400);
             this.removeBtn.Name = "removeBtn";
-            this.removeBtn.Size = new System.Drawing.Size(75, 23);
-            this.removeBtn.TabIndex = 4;
+            this.removeBtn.Size = new System.Drawing.Size(75, 25);
+            this.removeBtn.TabIndex = 5;
             this.removeBtn.Text = "Удалить";
             this.removeBtn.UseVisualStyleBackColor = true;
             this.removeBtn.Click += new System.EventHandler(this.removeBtn_Click);
@@ -77,10 +77,11 @@
             "Finncolor",
             "TEKC",
             "Tikkurila"});
-            this.brandsBox.Location = new System.Drawing.Point(14, 13);
+            this.brandsBox.Location = new System.Drawing.Point(15, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
             this.brandsBox.Size = new System.Drawing.Size(240, 27);
+            this.brandsBox.Sorted = true;
             this.brandsBox.TabIndex = 1;
             this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
             // 
@@ -91,9 +92,10 @@
             this.productsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.productsBox.FormattingEnabled = true;
             this.productsBox.ItemHeight = 19;
-            this.productsBox.Location = new System.Drawing.Point(14, 41);
+            this.productsBox.Location = new System.Drawing.Point(15, 45);
             this.productsBox.Name = "productsBox";
             this.productsBox.Size = new System.Drawing.Size(240, 346);
+            this.productsBox.Sorted = true;
             this.productsBox.TabIndex = 2;
             this.productsBox.DoubleClick += new System.EventHandler(this.editBtn_Click);
             // 
@@ -101,10 +103,10 @@
             // 
             this.editBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.editBtn.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.editBtn.Location = new System.Drawing.Point(94, 402);
+            this.editBtn.Location = new System.Drawing.Point(95, 400);
             this.editBtn.Name = "editBtn";
-            this.editBtn.Size = new System.Drawing.Size(75, 23);
-            this.editBtn.TabIndex = 5;
+            this.editBtn.Size = new System.Drawing.Size(75, 25);
+            this.editBtn.TabIndex = 4;
             this.editBtn.Text = "Изменить";
             this.editBtn.UseVisualStyleBackColor = true;
             this.editBtn.Click += new System.EventHandler(this.editBtn_Click);
@@ -133,6 +135,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Helper";
             this.Text = "Database Helper";
+            this.TopMost = true;
             this.Activated += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
             ((System.ComponentModel.ISupportInitialize)(this.barcoderBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barcoderBindingSource)).EndInit();
