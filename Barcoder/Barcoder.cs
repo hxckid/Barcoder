@@ -84,17 +84,22 @@ namespace Barcoder
                                 case "BB":
                                 case "BT":
                                 case "BW":
+                                case "VVA":
+                                case "MRA":
                                     btnList[i].BackColor = Color.White;
                                     break;
                                 case "BC":
                                 case "C":
                                 case "D":
                                 case "TR":
+                                case "MRC":
+                                case "VC":
                                     btnList[i].BackColor = Color.IndianRed;
                                     break;
                                 case "EP":
+                                case "EC":
                                 case "NEU":
-                                    btnList[i].BackColor = Color.Lavender;
+                                    btnList[i].BackColor = Color.AntiqueWhite;
                                     break;
                                 case "ORO":
                                     btnList[i].BackColor = Color.Gold;
@@ -156,14 +161,14 @@ namespace Barcoder
 
         private void dataBtn1_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn1.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn1.Text.Substring(dataBtn1.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn2_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn2.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn2.Text.Substring(dataBtn2.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
@@ -177,35 +182,35 @@ namespace Barcoder
 
         private void dataBtn4_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn4.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn4.Text.Substring(dataBtn4.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn5_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn5.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn5.Text.Substring(dataBtn5.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn6_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn6.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn6.Text.Substring(dataBtn6.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn7_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn7.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn7.Text.Substring(dataBtn7.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn8_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn8.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn8.Text.Substring(dataBtn8.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
