@@ -48,7 +48,7 @@ namespace Barcoder
             productsBox.Items.Clear();
             productsBox.Text = "";
             LockAndClearButtons();
-            label.Text = string.Empty;
+            label.Text = "Выберите продукт";
 
             foreach (var paint in db)
             {

@@ -53,10 +53,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>A5A0D8DF1E720C3236EF04E0FFA867EB90004672</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>BCB1777D80A9723BF0C28BD8CAEC9ACED876132C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Barcoder_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Barcoder_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>

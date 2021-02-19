@@ -58,20 +58,33 @@
             "TEKC",
             "Tikkurila",
             "Vekker",
-            "Vincent",
+            "Dufa",
             "Лакра",
             "Текстурол"});
             this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.brandsBox.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.brandsBox.BackColor = System.Drawing.Color.Black;
             this.brandsBox.DisplayMember = "Brand";
             this.brandsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.brandsBox.ForeColor = System.Drawing.Color.White;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
+            "Aura",
+            "Dufa",
+            "Dulux",
+            "Eskaro",
             "Finncolor",
+            "Hammerite",
+            "Holzer",
+            "Marshall",
+            "Parade",
+            "Pinotex",
+            "Rosetti",
             "TEKC",
-            "Tikkurila"});
+            "Tikkurila",
+            "Vekker",
+            "Лакра",
+            "Текстурол"});
             this.brandsBox.Location = new System.Drawing.Point(10, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
@@ -84,9 +97,9 @@
             // 
             this.productsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.productsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.productsBox.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.productsBox.BackColor = System.Drawing.Color.Black;
             this.productsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.productsBox.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.productsBox.ForeColor = System.Drawing.Color.White;
             this.productsBox.FormattingEnabled = true;
             this.productsBox.Location = new System.Drawing.Point(10, 50);
             this.productsBox.Name = "productsBox";
@@ -102,8 +115,9 @@
             this.label.ForeColor = System.Drawing.SystemColors.Window;
             this.label.Location = new System.Drawing.Point(33, 432);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(0, 22);
+            this.label.Size = new System.Drawing.Size(128, 22);
             this.label.TabIndex = 3;
+            this.label.Text = "Выберите брэнд";
             // 
             // dataBtn1
             // 
@@ -189,8 +203,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(213, 463);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(212, 460);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
             this.Controls.Add(this.dataBtn6);
