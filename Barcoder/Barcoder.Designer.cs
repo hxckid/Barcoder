@@ -45,22 +45,20 @@
             // brandsBox
             // 
             this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
+            "Alpina",
             "Aura",
+            "Caparol",
+            "Ceresit",
+            "Dali",
             "Dulux",
             "Eskaro",
             "Finncolor",
             "Hammerite",
-            "Holzer",
             "Marshall",
-            "Parade",
             "Pinotex",
-            "Rosetti",
             "TEKC",
             "Tikkurila",
-            "Vekker",
-            "Dufa",
-            "Лакра",
-            "Текстурол"});
+            "VGT"});
             this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.brandsBox.BackColor = System.Drawing.Color.Black;
@@ -69,22 +67,20 @@
             this.brandsBox.ForeColor = System.Drawing.Color.White;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
+            "Alpina",
             "Aura",
-            "Dufa",
+            "Caparol",
+            "Ceresit",
+            "Dali",
             "Dulux",
             "Eskaro",
             "Finncolor",
             "Hammerite",
-            "Holzer",
             "Marshall",
-            "Parade",
             "Pinotex",
-            "Rosetti",
             "TEKC",
             "Tikkurila",
-            "Vekker",
-            "Лакра",
-            "Текстурол"});
+            "VGT"});
             this.brandsBox.Location = new System.Drawing.Point(10, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";

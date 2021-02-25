@@ -73,9 +73,20 @@
             this.brandBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandBox.FormattingEnabled = true;
             this.brandBox.Items.AddRange(new object[] {
+            "Alpina",
+            "Aura",
+            "Caparol",
+            "Ceresit",
+            "Dali",
+            "Dulux",
+            "Eskaro",
             "Finncolor",
+            "Hammerite",
+            "Marshall",
+            "Pinotex",
             "TEKC",
-            "Tikkurila"});
+            "Tikkurila",
+            "VGT"});
             this.brandBox.Location = new System.Drawing.Point(47, 31);
             this.brandBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.brandBox.Name = "brandBox";

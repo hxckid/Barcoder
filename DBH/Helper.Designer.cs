@@ -74,9 +74,20 @@
             this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
+            "Alpina",
+            "Aura",
+            "Caparol",
+            "Ceresit",
+            "Dali",
+            "Dulux",
+            "Eskaro",
             "Finncolor",
+            "Hammerite",
+            "Marshall",
+            "Pinotex",
             "TEKC",
-            "Tikkurila"});
+            "Tikkurila",
+            "VGT"});
             this.brandsBox.Location = new System.Drawing.Point(15, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
