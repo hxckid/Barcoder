@@ -117,7 +117,7 @@
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(128, 22);
             this.label.TabIndex = 3;
-            this.label.Text = "Выберите брэнд";
+            this.label.Text = "Выберите марку";
             // 
             // dataBtn1
             // 

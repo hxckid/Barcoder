@@ -40,3 +40,17 @@ C:\Users\iamhx\source\repos\Barcoder\Barcoder\obj\Debug\Barcoder.exe.manifest
 C:\Users\iamhx\source\repos\Barcoder\Barcoder\obj\Debug\Barcoder.application
 C:\Users\iamhx\source\repos\Barcoder\Barcoder\obj\Debug\Barcoder.exe
 C:\Users\iamhx\source\repos\Barcoder\Barcoder\obj\Debug\Barcoder.pdb
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.exe.config
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.exe.manifest
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.application
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.exe
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.pdb
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.csprojAssemblyReference.cache
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.Barcoder.resources
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.Properties.Resources.resources
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.csproj.GenerateResource.cache
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.csproj.CoreCompileInputs.cache
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.exe.manifest
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.application
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.exe
+C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.pdb
