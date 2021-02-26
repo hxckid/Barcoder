@@ -83,7 +83,7 @@
             "Marshall",
             "Parade",
             "Pinotex",
-            "Rosetti",
+            "Rossetti",
             "TEKC",
             "Tikkurila",
             "Vekker",

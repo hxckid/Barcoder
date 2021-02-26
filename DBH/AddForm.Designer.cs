@@ -83,7 +83,7 @@
             "Marshall",
             "Parade",
             "Pinotex",
-            "Rosetti",
+            "Rossetti",
             "TEKC",
             "Tikkurila",
             "Vekker",
@@ -176,7 +176,7 @@
             this.volumeBox1.Size = new System.Drawing.Size(69, 26);
             this.volumeBox1.TabIndex = 3;
             this.volumeBox1.Tag = "";
-            this.volumeBox1.Text = " ";
+            this.volumeBox1.Text = "";
             this.volumeBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bcBox1
@@ -191,7 +191,7 @@
             this.bcBox1.Size = new System.Drawing.Size(100, 26);
             this.bcBox1.TabIndex = 4;
             this.bcBox1.Tag = "";
-            this.bcBox1.Text = " ";
+            this.bcBox1.Text = "";
             this.bcBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
@@ -236,7 +236,7 @@
             this.bcBox2.Size = new System.Drawing.Size(100, 26);
             this.bcBox2.TabIndex = 7;
             this.bcBox2.Tag = "";
-            this.bcBox2.Text = " ";
+            this.bcBox2.Text = "";
             this.bcBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox2
@@ -251,7 +251,7 @@
             this.volumeBox2.Size = new System.Drawing.Size(69, 26);
             this.volumeBox2.TabIndex = 6;
             this.volumeBox2.Tag = "";
-            this.volumeBox2.Text = " ";
+            this.volumeBox2.Text = "";
             this.volumeBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox2
@@ -303,7 +303,7 @@
             this.bcBox3.Size = new System.Drawing.Size(100, 26);
             this.bcBox3.TabIndex = 10;
             this.bcBox3.Tag = "";
-            this.bcBox3.Text = " ";
+            this.bcBox3.Text = "";
             this.bcBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox3
@@ -318,7 +318,7 @@
             this.volumeBox3.Size = new System.Drawing.Size(69, 26);
             this.volumeBox3.TabIndex = 9;
             this.volumeBox3.Tag = "";
-            this.volumeBox3.Text = " ";
+            this.volumeBox3.Text = "";
             this.volumeBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox3
@@ -370,7 +370,7 @@
             this.bcBox4.Size = new System.Drawing.Size(100, 26);
             this.bcBox4.TabIndex = 13;
             this.bcBox4.Tag = "";
-            this.bcBox4.Text = " ";
+            this.bcBox4.Text = "";
             this.bcBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox4
@@ -385,7 +385,7 @@
             this.volumeBox4.Size = new System.Drawing.Size(69, 26);
             this.volumeBox4.TabIndex = 12;
             this.volumeBox4.Tag = "";
-            this.volumeBox4.Text = " ";
+            this.volumeBox4.Text = "";
             this.volumeBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox4
@@ -437,7 +437,7 @@
             this.bcBox5.Size = new System.Drawing.Size(100, 26);
             this.bcBox5.TabIndex = 16;
             this.bcBox5.Tag = "";
-            this.bcBox5.Text = " ";
+            this.bcBox5.Text = "";
             this.bcBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox5
@@ -452,7 +452,7 @@
             this.volumeBox5.Size = new System.Drawing.Size(69, 26);
             this.volumeBox5.TabIndex = 15;
             this.volumeBox5.Tag = "";
-            this.volumeBox5.Text = " ";
+            this.volumeBox5.Text = "";
             this.volumeBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox5
@@ -504,7 +504,7 @@
             this.bcBox6.Size = new System.Drawing.Size(100, 26);
             this.bcBox6.TabIndex = 19;
             this.bcBox6.Tag = "";
-            this.bcBox6.Text = " ";
+            this.bcBox6.Text = "";
             this.bcBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox6
@@ -519,7 +519,7 @@
             this.volumeBox6.Size = new System.Drawing.Size(69, 26);
             this.volumeBox6.TabIndex = 18;
             this.volumeBox6.Tag = "";
-            this.volumeBox6.Text = " ";
+            this.volumeBox6.Text = "";
             this.volumeBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox6
@@ -632,7 +632,7 @@
             this.volumeBox7.Size = new System.Drawing.Size(69, 26);
             this.volumeBox7.TabIndex = 21;
             this.volumeBox7.Tag = "";
-            this.volumeBox7.Text = " ";
+            this.volumeBox7.Text = "";
             this.volumeBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bcBox7
@@ -647,7 +647,7 @@
             this.bcBox7.Size = new System.Drawing.Size(100, 26);
             this.bcBox7.TabIndex = 22;
             this.bcBox7.Tag = "";
-            this.bcBox7.Text = " ";
+            this.bcBox7.Text = "";
             this.bcBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox8
@@ -699,7 +699,7 @@
             this.volumeBox8.Size = new System.Drawing.Size(69, 26);
             this.volumeBox8.TabIndex = 24;
             this.volumeBox8.Tag = "";
-            this.volumeBox8.Text = " ";
+            this.volumeBox8.Text = "";
             this.volumeBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bcBox8
@@ -714,7 +714,7 @@
             this.bcBox8.Size = new System.Drawing.Size(100, 26);
             this.bcBox8.TabIndex = 25;
             this.bcBox8.Tag = "";
-            this.bcBox8.Text = " ";
+            this.bcBox8.Text = "";
             this.bcBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AddForm
