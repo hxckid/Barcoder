@@ -73,13 +73,27 @@
             this.brandBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandBox.FormattingEnabled = true;
             this.brandBox.Items.AddRange(new object[] {
+            "Aura",
+            "Dufa",
+            "Dulux",
+            "Eskaro",
             "Finncolor",
+            "Hammerite",
+            "Holzer",
+            "Marshall",
+            "Parade",
+            "Pinotex",
+            "Rosetti",
             "TEKC",
-            "Tikkurila"});
+            "Tikkurila",
+            "Vekker",
+            "Лакра",
+            "Текстурол"});
             this.brandBox.Location = new System.Drawing.Point(47, 31);
             this.brandBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.brandBox.Name = "brandBox";
             this.brandBox.Size = new System.Drawing.Size(176, 26);
+            this.brandBox.Sorted = true;
             this.brandBox.TabIndex = 0;
             // 
             // productBox
@@ -109,7 +123,7 @@
             this.label2.Location = new System.Drawing.Point(86, 75);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 16);
+            this.label2.Size = new System.Drawing.Size(107, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Название продукта";
             // 
@@ -196,7 +210,7 @@
             this.label4.Location = new System.Drawing.Point(108, 149);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 16);
+            this.label4.Size = new System.Drawing.Size(40, 16);
             this.label4.TabIndex = 8;
             this.label4.Text = "Объем";
             // 

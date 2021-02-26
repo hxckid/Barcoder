@@ -214,5 +214,15 @@ namespace Barcoder
             Clipboard.SetData(DataFormats.Text, barcode);
             label.Text = $"Скопирован: {barcode}";
         }
+
+        private void Barcoder_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

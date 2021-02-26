@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Barcoder",
+    "\\DBH"
   ],
+  "SelectedNode": "\\Barcoder\\Barcoder.sln",
   "PreviewInSolutionExplorer": false
 }

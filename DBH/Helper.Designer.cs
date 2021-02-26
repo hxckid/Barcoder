@@ -45,9 +45,9 @@
             // 
             this.addBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addBtn.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.addBtn.Location = new System.Drawing.Point(15, 400);
+            this.addBtn.Location = new System.Drawing.Point(17, 400);
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(75, 25);
+            this.addBtn.Size = new System.Drawing.Size(80, 25);
             this.addBtn.TabIndex = 3;
             this.addBtn.Text = "Добавить";
             this.addBtn.UseVisualStyleBackColor = true;
@@ -57,9 +57,9 @@
             // 
             this.removeBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.removeBtn.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.removeBtn.Location = new System.Drawing.Point(175, 400);
+            this.removeBtn.Location = new System.Drawing.Point(190, 400);
             this.removeBtn.Name = "removeBtn";
-            this.removeBtn.Size = new System.Drawing.Size(75, 25);
+            this.removeBtn.Size = new System.Drawing.Size(80, 25);
             this.removeBtn.TabIndex = 5;
             this.removeBtn.Text = "Удалить";
             this.removeBtn.UseVisualStyleBackColor = true;
@@ -74,13 +74,26 @@
             this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
+            "Aura",
+            "Dulux",
+            "Eskaro",
             "Finncolor",
+            "Hammerite",
+            "Holzer",
+            "Marshall",
+            "Parade",
+            "Pinotex",
+            "Rosetti",
             "TEKC",
-            "Tikkurila"});
+            "Tikkurila",
+            "Vekker",
+            "Dufa",
+            "Лакра",
+            "Текстурол"});
             this.brandsBox.Location = new System.Drawing.Point(15, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
-            this.brandsBox.Size = new System.Drawing.Size(240, 27);
+            this.brandsBox.Size = new System.Drawing.Size(255, 27);
             this.brandsBox.Sorted = true;
             this.brandsBox.TabIndex = 1;
             this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
@@ -94,7 +107,7 @@
             this.productsBox.ItemHeight = 19;
             this.productsBox.Location = new System.Drawing.Point(15, 45);
             this.productsBox.Name = "productsBox";
-            this.productsBox.Size = new System.Drawing.Size(240, 346);
+            this.productsBox.Size = new System.Drawing.Size(255, 346);
             this.productsBox.Sorted = true;
             this.productsBox.TabIndex = 2;
             this.productsBox.DoubleClick += new System.EventHandler(this.editBtn_Click);
@@ -103,9 +116,9 @@
             // 
             this.editBtn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.editBtn.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.editBtn.Location = new System.Drawing.Point(95, 400);
+            this.editBtn.Location = new System.Drawing.Point(104, 400);
             this.editBtn.Name = "editBtn";
-            this.editBtn.Size = new System.Drawing.Size(75, 25);
+            this.editBtn.Size = new System.Drawing.Size(80, 25);
             this.editBtn.TabIndex = 4;
             this.editBtn.Text = "Изменить";
             this.editBtn.UseVisualStyleBackColor = true;
@@ -124,7 +137,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(268, 437);
+            this.ClientSize = new System.Drawing.Size(282, 437);
             this.Controls.Add(this.editBtn);
             this.Controls.Add(this.productsBox);
             this.Controls.Add(this.brandsBox);

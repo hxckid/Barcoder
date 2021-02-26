@@ -44,6 +44,9 @@
             // 
             // brandsBox
             // 
+            this.brandsBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
             "Aura",
             "Dulux",
@@ -63,10 +66,10 @@
             "Текстурол"});
             this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.brandsBox.BackColor = System.Drawing.Color.Black;
+            this.brandsBox.BackColor = System.Drawing.Color.SteelBlue;
             this.brandsBox.DisplayMember = "Brand";
-            this.brandsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.brandsBox.ForeColor = System.Drawing.Color.White;
+            this.brandsBox.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.brandsBox.ForeColor = System.Drawing.Color.Black;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
             "Aura",
@@ -95,11 +98,14 @@
             // 
             // productsBox
             // 
+            this.productsBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.productsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.productsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.productsBox.BackColor = System.Drawing.Color.Black;
-            this.productsBox.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.productsBox.ForeColor = System.Drawing.Color.White;
+            this.productsBox.BackColor = System.Drawing.Color.SteelBlue;
+            this.productsBox.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.productsBox.ForeColor = System.Drawing.Color.Black;
             this.productsBox.FormattingEnabled = true;
             this.productsBox.Location = new System.Drawing.Point(10, 50);
             this.productsBox.Name = "productsBox";
@@ -111,17 +117,24 @@
             // label
             // 
             this.label.AutoSize = true;
-            this.label.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label.ForeColor = System.Drawing.SystemColors.Window;
-            this.label.Location = new System.Drawing.Point(33, 432);
+            this.label.Location = new System.Drawing.Point(0, 422);
+            this.label.Margin = new System.Windows.Forms.Padding(0);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(128, 22);
+            this.label.Padding = new System.Windows.Forms.Padding(30, 10, 30, 10);
+            this.label.Size = new System.Drawing.Size(189, 38);
             this.label.TabIndex = 3;
             this.label.Text = "Выберите марку";
+            this.label.Click += new System.EventHandler(this.label_Click);
             // 
             // dataBtn1
             // 
-            this.dataBtn1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn1.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn1.Location = new System.Drawing.Point(10, 100);
             this.dataBtn1.Name = "dataBtn1";
             this.dataBtn1.Size = new System.Drawing.Size(190, 40);
@@ -131,7 +144,10 @@
             // 
             // dataBtn2
             // 
-            this.dataBtn2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn2.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn2.Location = new System.Drawing.Point(10, 140);
             this.dataBtn2.Name = "dataBtn2";
             this.dataBtn2.Size = new System.Drawing.Size(190, 40);
@@ -141,7 +157,10 @@
             // 
             // dataBtn3
             // 
-            this.dataBtn3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn3.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn3.Location = new System.Drawing.Point(10, 180);
             this.dataBtn3.Name = "dataBtn3";
             this.dataBtn3.Size = new System.Drawing.Size(190, 40);
@@ -151,7 +170,10 @@
             // 
             // dataBtn4
             // 
-            this.dataBtn4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn4.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn4.Location = new System.Drawing.Point(10, 220);
             this.dataBtn4.Name = "dataBtn4";
             this.dataBtn4.Size = new System.Drawing.Size(190, 40);
@@ -161,7 +183,10 @@
             // 
             // dataBtn5
             // 
-            this.dataBtn5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn5.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn5.Location = new System.Drawing.Point(10, 260);
             this.dataBtn5.Name = "dataBtn5";
             this.dataBtn5.Size = new System.Drawing.Size(190, 40);
@@ -171,7 +196,10 @@
             // 
             // dataBtn6
             // 
-            this.dataBtn6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn6.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn6.Location = new System.Drawing.Point(10, 300);
             this.dataBtn6.Name = "dataBtn6";
             this.dataBtn6.Size = new System.Drawing.Size(190, 40);
@@ -181,7 +209,10 @@
             // 
             // dataBtn7
             // 
-            this.dataBtn7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn7.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn7.Location = new System.Drawing.Point(10, 340);
             this.dataBtn7.Name = "dataBtn7";
             this.dataBtn7.Size = new System.Drawing.Size(190, 40);
@@ -191,7 +222,10 @@
             // 
             // dataBtn8
             // 
-            this.dataBtn8.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataBtn8.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn8.Location = new System.Drawing.Point(10, 380);
             this.dataBtn8.Name = "dataBtn8";
             this.dataBtn8.Size = new System.Drawing.Size(190, 40);
@@ -201,10 +235,9 @@
             // 
             // Barcoder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(212, 460);
+            this.ClientSize = new System.Drawing.Size(213, 460);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
             this.Controls.Add(this.dataBtn6);
@@ -216,11 +249,12 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.productsBox);
             this.Controls.Add(this.brandsBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Barcoder";
-            this.Text = "Barcoder";
-            this.TopMost = true;
+            this.ShowIcon = false;
+            this.Text = "Barcoder PRO";
+            this.Load += new System.EventHandler(this.Barcoder_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
