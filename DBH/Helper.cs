@@ -104,7 +104,7 @@ namespace DBH
             add.brandBox.Text = currentPaint.Brand.ToString(); 
             add.brandBox.Enabled = false;
             add.productBox.Text = currentPaint.Product;
-            add.productBox.Enabled = false;
+            add.productBox.Enabled = true;
 
             add.baseBox1.Text =  currentPaint.Data[0].Base.Replace(" ","");
             add.volumeBox1.Text = currentPaint.Data[0].Volume.ToString().Replace(" ","");;

@@ -75,6 +75,7 @@
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
             "Aura",
+            "Dufa",
             "Dulux",
             "Eskaro",
             "Finncolor",
@@ -87,7 +88,6 @@
             "TEKC",
             "Tikkurila",
             "Vekker",
-            "Dufa",
             "Лакра",
             "Текстурол"});
             this.brandsBox.Location = new System.Drawing.Point(15, 10);
@@ -136,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(282, 437);
             this.Controls.Add(this.editBtn);
             this.Controls.Add(this.productsBox);
