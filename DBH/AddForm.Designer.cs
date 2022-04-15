@@ -69,7 +69,7 @@
             this.brandBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.brandBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.brandBox.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.brandBox.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.brandBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandBox.FormattingEnabled = true;
             this.brandBox.Items.AddRange(new object[] {
@@ -92,38 +92,40 @@
             this.brandBox.Location = new System.Drawing.Point(47, 31);
             this.brandBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.brandBox.Name = "brandBox";
-            this.brandBox.Size = new System.Drawing.Size(176, 26);
+            this.brandBox.Size = new System.Drawing.Size(176, 32);
             this.brandBox.Sorted = true;
             this.brandBox.TabIndex = 0;
             // 
             // productBox
             // 
             this.productBox.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.productBox.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.productBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.productBox.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.productBox.Location = new System.Drawing.Point(14, 95);
+            this.productBox.Location = new System.Drawing.Point(15, 95);
             this.productBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.productBox.Name = "productBox";
-            this.productBox.Size = new System.Drawing.Size(251, 26);
+            this.productBox.Size = new System.Drawing.Size(251, 29);
             this.productBox.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(110, 10);
+            this.label1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(112, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 16);
+            this.label1.Size = new System.Drawing.Size(45, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Бренд";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(86, 75);
+            this.label2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(79, 71);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 16);
+            this.label2.Size = new System.Drawing.Size(119, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Название продукта";
             // 
@@ -132,7 +134,7 @@
             this.baseBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox1.FormattingEnabled = true;
             this.baseBox1.Items.AddRange(new object[] {
@@ -160,14 +162,14 @@
             this.baseBox1.Location = new System.Drawing.Point(14, 169);
             this.baseBox1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox1.Name = "baseBox1";
-            this.baseBox1.Size = new System.Drawing.Size(69, 26);
+            this.baseBox1.Size = new System.Drawing.Size(69, 29);
             this.baseBox1.Sorted = true;
             this.baseBox1.TabIndex = 2;
             // 
             // volumeBox1
             // 
             this.volumeBox1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox1.Location = new System.Drawing.Point(92, 169);
             this.volumeBox1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -176,13 +178,12 @@
             this.volumeBox1.Size = new System.Drawing.Size(69, 26);
             this.volumeBox1.TabIndex = 3;
             this.volumeBox1.Tag = "";
-            this.volumeBox1.Text = "";
             this.volumeBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bcBox1
             // 
             this.bcBox1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox1.Location = new System.Drawing.Point(166, 169);
             this.bcBox1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -191,43 +192,45 @@
             this.bcBox1.Size = new System.Drawing.Size(100, 26);
             this.bcBox1.TabIndex = 4;
             this.bcBox1.Tag = "";
-            this.bcBox1.Text = "";
             this.bcBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(32, 149);
+            this.label3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(34, 145);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 16);
+            this.label3.Size = new System.Drawing.Size(37, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "База";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(108, 149);
+            this.label4.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(110, 145);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 16);
+            this.label4.Size = new System.Drawing.Size(47, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Объем";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(194, 149);
+            this.label5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(196, 145);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 16);
+            this.label5.Size = new System.Drawing.Size(51, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "Баркод";
             // 
             // bcBox2
             // 
             this.bcBox2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox2.Location = new System.Drawing.Point(166, 202);
             this.bcBox2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -236,13 +239,12 @@
             this.bcBox2.Size = new System.Drawing.Size(100, 26);
             this.bcBox2.TabIndex = 7;
             this.bcBox2.Tag = "";
-            this.bcBox2.Text = "";
             this.bcBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox2
             // 
             this.volumeBox2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox2.Location = new System.Drawing.Point(92, 202);
             this.volumeBox2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -251,7 +253,6 @@
             this.volumeBox2.Size = new System.Drawing.Size(69, 26);
             this.volumeBox2.TabIndex = 6;
             this.volumeBox2.Tag = "";
-            this.volumeBox2.Text = "";
             this.volumeBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox2
@@ -259,7 +260,7 @@
             this.baseBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox2.FormattingEnabled = true;
             this.baseBox2.Items.AddRange(new object[] {
@@ -287,14 +288,14 @@
             this.baseBox2.Location = new System.Drawing.Point(14, 202);
             this.baseBox2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox2.Name = "baseBox2";
-            this.baseBox2.Size = new System.Drawing.Size(69, 26);
+            this.baseBox2.Size = new System.Drawing.Size(69, 29);
             this.baseBox2.Sorted = true;
             this.baseBox2.TabIndex = 5;
             // 
             // bcBox3
             // 
             this.bcBox3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox3.Location = new System.Drawing.Point(166, 235);
             this.bcBox3.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -303,13 +304,12 @@
             this.bcBox3.Size = new System.Drawing.Size(100, 26);
             this.bcBox3.TabIndex = 10;
             this.bcBox3.Tag = "";
-            this.bcBox3.Text = "";
             this.bcBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox3
             // 
             this.volumeBox3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox3.Location = new System.Drawing.Point(92, 235);
             this.volumeBox3.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -318,7 +318,6 @@
             this.volumeBox3.Size = new System.Drawing.Size(69, 26);
             this.volumeBox3.TabIndex = 9;
             this.volumeBox3.Tag = "";
-            this.volumeBox3.Text = "";
             this.volumeBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox3
@@ -326,7 +325,7 @@
             this.baseBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox3.FormattingEnabled = true;
             this.baseBox3.Items.AddRange(new object[] {
@@ -354,14 +353,14 @@
             this.baseBox3.Location = new System.Drawing.Point(14, 235);
             this.baseBox3.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox3.Name = "baseBox3";
-            this.baseBox3.Size = new System.Drawing.Size(69, 26);
+            this.baseBox3.Size = new System.Drawing.Size(69, 29);
             this.baseBox3.Sorted = true;
             this.baseBox3.TabIndex = 8;
             // 
             // bcBox4
             // 
             this.bcBox4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox4.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox4.Location = new System.Drawing.Point(166, 268);
             this.bcBox4.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -370,13 +369,12 @@
             this.bcBox4.Size = new System.Drawing.Size(100, 26);
             this.bcBox4.TabIndex = 13;
             this.bcBox4.Tag = "";
-            this.bcBox4.Text = "";
             this.bcBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox4
             // 
             this.volumeBox4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox4.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox4.Location = new System.Drawing.Point(92, 268);
             this.volumeBox4.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -385,7 +383,6 @@
             this.volumeBox4.Size = new System.Drawing.Size(69, 26);
             this.volumeBox4.TabIndex = 12;
             this.volumeBox4.Tag = "";
-            this.volumeBox4.Text = "";
             this.volumeBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox4
@@ -393,7 +390,7 @@
             this.baseBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox4.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox4.FormattingEnabled = true;
             this.baseBox4.Items.AddRange(new object[] {
@@ -421,14 +418,14 @@
             this.baseBox4.Location = new System.Drawing.Point(14, 268);
             this.baseBox4.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox4.Name = "baseBox4";
-            this.baseBox4.Size = new System.Drawing.Size(69, 26);
+            this.baseBox4.Size = new System.Drawing.Size(69, 29);
             this.baseBox4.Sorted = true;
             this.baseBox4.TabIndex = 11;
             // 
             // bcBox5
             // 
             this.bcBox5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox5.Location = new System.Drawing.Point(166, 302);
             this.bcBox5.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -437,13 +434,12 @@
             this.bcBox5.Size = new System.Drawing.Size(100, 26);
             this.bcBox5.TabIndex = 16;
             this.bcBox5.Tag = "";
-            this.bcBox5.Text = "";
             this.bcBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox5
             // 
             this.volumeBox5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox5.Location = new System.Drawing.Point(92, 302);
             this.volumeBox5.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -452,7 +448,6 @@
             this.volumeBox5.Size = new System.Drawing.Size(69, 26);
             this.volumeBox5.TabIndex = 15;
             this.volumeBox5.Tag = "";
-            this.volumeBox5.Text = "";
             this.volumeBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox5
@@ -460,7 +455,7 @@
             this.baseBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox5.FormattingEnabled = true;
             this.baseBox5.Items.AddRange(new object[] {
@@ -488,14 +483,14 @@
             this.baseBox5.Location = new System.Drawing.Point(14, 302);
             this.baseBox5.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox5.Name = "baseBox5";
-            this.baseBox5.Size = new System.Drawing.Size(69, 26);
+            this.baseBox5.Size = new System.Drawing.Size(69, 29);
             this.baseBox5.Sorted = true;
             this.baseBox5.TabIndex = 14;
             // 
             // bcBox6
             // 
             this.bcBox6.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox6.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox6.Location = new System.Drawing.Point(166, 335);
             this.bcBox6.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -504,13 +499,12 @@
             this.bcBox6.Size = new System.Drawing.Size(100, 26);
             this.bcBox6.TabIndex = 19;
             this.bcBox6.Tag = "";
-            this.bcBox6.Text = "";
             this.bcBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // volumeBox6
             // 
             this.volumeBox6.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox6.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox6.Location = new System.Drawing.Point(92, 335);
             this.volumeBox6.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -519,7 +513,6 @@
             this.volumeBox6.Size = new System.Drawing.Size(69, 26);
             this.volumeBox6.TabIndex = 18;
             this.volumeBox6.Tag = "";
-            this.volumeBox6.Text = "";
             this.volumeBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox6
@@ -527,7 +520,7 @@
             this.baseBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox6.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox6.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox6.FormattingEnabled = true;
             this.baseBox6.Items.AddRange(new object[] {
@@ -555,12 +548,13 @@
             this.baseBox6.Location = new System.Drawing.Point(14, 335);
             this.baseBox6.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox6.Name = "baseBox6";
-            this.baseBox6.Size = new System.Drawing.Size(69, 26);
+            this.baseBox6.Size = new System.Drawing.Size(69, 29);
             this.baseBox6.Sorted = true;
             this.baseBox6.TabIndex = 17;
             // 
             // saveBtn
             // 
+            this.saveBtn.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.saveBtn.ForeColor = System.Drawing.SystemColors.ControlText;
             this.saveBtn.Location = new System.Drawing.Point(14, 435);
             this.saveBtn.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -573,6 +567,7 @@
             // 
             // cancelBtn
             // 
+            this.cancelBtn.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cancelBtn.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cancelBtn.Location = new System.Drawing.Point(166, 435);
             this.cancelBtn.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -588,7 +583,7 @@
             this.baseBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox7.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox7.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox7.FormattingEnabled = true;
             this.baseBox7.Items.AddRange(new object[] {
@@ -616,14 +611,14 @@
             this.baseBox7.Location = new System.Drawing.Point(14, 368);
             this.baseBox7.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox7.Name = "baseBox7";
-            this.baseBox7.Size = new System.Drawing.Size(69, 26);
+            this.baseBox7.Size = new System.Drawing.Size(69, 29);
             this.baseBox7.Sorted = true;
             this.baseBox7.TabIndex = 20;
             // 
             // volumeBox7
             // 
             this.volumeBox7.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox7.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox7.Location = new System.Drawing.Point(92, 368);
             this.volumeBox7.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -632,13 +627,12 @@
             this.volumeBox7.Size = new System.Drawing.Size(69, 26);
             this.volumeBox7.TabIndex = 21;
             this.volumeBox7.Tag = "";
-            this.volumeBox7.Text = "";
             this.volumeBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bcBox7
             // 
             this.bcBox7.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox7.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox7.Location = new System.Drawing.Point(166, 368);
             this.bcBox7.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -647,7 +641,6 @@
             this.bcBox7.Size = new System.Drawing.Size(100, 26);
             this.bcBox7.TabIndex = 22;
             this.bcBox7.Tag = "";
-            this.bcBox7.Text = "";
             this.bcBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // baseBox8
@@ -655,7 +648,7 @@
             this.baseBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.baseBox8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.baseBox8.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.baseBox8.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.baseBox8.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox8.FormattingEnabled = true;
             this.baseBox8.Items.AddRange(new object[] {
@@ -683,14 +676,14 @@
             this.baseBox8.Location = new System.Drawing.Point(14, 401);
             this.baseBox8.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox8.Name = "baseBox8";
-            this.baseBox8.Size = new System.Drawing.Size(69, 26);
+            this.baseBox8.Size = new System.Drawing.Size(69, 29);
             this.baseBox8.Sorted = true;
             this.baseBox8.TabIndex = 23;
             // 
             // volumeBox8
             // 
             this.volumeBox8.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.volumeBox8.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.volumeBox8.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.volumeBox8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.volumeBox8.Location = new System.Drawing.Point(92, 401);
             this.volumeBox8.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -699,13 +692,12 @@
             this.volumeBox8.Size = new System.Drawing.Size(69, 26);
             this.volumeBox8.TabIndex = 24;
             this.volumeBox8.Tag = "";
-            this.volumeBox8.Text = "";
             this.volumeBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bcBox8
             // 
             this.bcBox8.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.bcBox8.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bcBox8.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bcBox8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.bcBox8.Location = new System.Drawing.Point(166, 401);
             this.bcBox8.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -714,7 +706,6 @@
             this.bcBox8.Size = new System.Drawing.Size(100, 26);
             this.bcBox8.TabIndex = 25;
             this.bcBox8.Tag = "";
-            this.bcBox8.Text = "";
             this.bcBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AddForm

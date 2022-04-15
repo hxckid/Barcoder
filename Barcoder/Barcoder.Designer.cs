@@ -68,6 +68,7 @@
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.brandsBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.brandsBox.DisplayMember = "Brand";
+            this.brandsBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.brandsBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandsBox.ForeColor = System.Drawing.Color.Black;
             this.brandsBox.FormattingEnabled = true;
@@ -106,6 +107,7 @@
             this.productsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.productsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.productsBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.productsBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.productsBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.productsBox.ForeColor = System.Drawing.Color.Black;
             this.productsBox.FormattingEnabled = true;
@@ -241,7 +243,7 @@
             // Barcoder
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(213, 460);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
@@ -254,11 +256,11 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.productsBox);
             this.Controls.Add(this.brandsBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Barcoder";
             this.ShowIcon = false;
-            this.Text = "Barcoder PRO";
+            this.Text = "Bcoder PRO";
             this.Load += new System.EventHandler(this.Barcoder_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
