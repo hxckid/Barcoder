@@ -45,7 +45,6 @@ C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.exe.mani
 C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.application
 C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.exe
 C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\bin\Debug\Barcoder.pdb
-C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.csprojAssemblyReference.cache
 C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.Barcoder.resources
 C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.Properties.Resources.resources
 C:\Users\iamhx\Source\Repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.csproj.GenerateResource.cache
@@ -68,3 +67,4 @@ C:\Users\Тиккурила\source\repos\hxckid\Barcoder\Barcoder\obj\Debug\Barc
 C:\Users\Тиккурила\source\repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.application
 C:\Users\Тиккурила\source\repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.exe
 C:\Users\Тиккурила\source\repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.pdb
+C:\Users\iamhx\source\repos\hxckid\Barcoder\Barcoder\obj\Debug\Barcoder.csproj.AssemblyReference.cache

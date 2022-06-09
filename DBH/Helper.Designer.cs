@@ -75,21 +75,15 @@
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.Items.AddRange(new object[] {
             "Aura",
-            "Dufa",
+            "Caparol",
             "Dulux",
             "Eskaro",
             "Finncolor",
             "Hammerite",
-            "Holzer",
             "Marshall",
-            "Parade",
             "Pinotex",
-            "Rossetti",
             "TEKC",
-            "Tikkurila",
-            "Vekker",
-            "Лакра",
-            "Текстурол"});
+            "Tikkurila"});
             this.brandsBox.Location = new System.Drawing.Point(15, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
