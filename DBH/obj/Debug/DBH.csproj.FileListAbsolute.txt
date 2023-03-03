@@ -93,3 +93,5 @@ C:\Users\iamhx\source\repos\hxckid\Barcoder\DBH\obj\Debug\DBH.application
 C:\Users\iamhx\source\repos\hxckid\Barcoder\DBH\obj\Debug\DBH.csproj.CopyComplete
 C:\Users\iamhx\source\repos\hxckid\Barcoder\DBH\obj\Debug\DBH.exe
 C:\Users\iamhx\source\repos\hxckid\Barcoder\DBH\obj\Debug\DBH.pdb
+C:\Users\iamhx\source\repos\hxckid\Barcoder\DBH\bin\Debug\zxing.dll
+C:\Users\iamhx\source\repos\hxckid\Barcoder\DBH\bin\Debug\zxing.xml

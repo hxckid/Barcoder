@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Barcoder.exe.manifest" size="4126">
+    <dependentAssembly dependencyType="install" codebase="Barcoder.exe.manifest" size="12460">
       <assemblyIdentity name="Barcoder.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sHjocO9n1WEWNjBGRszO8aZKWbGhb75Z7m57Yi8i+gQ=</dsig:DigestValue>
+        <dsig:DigestValue>mUi162lwqGMFjf/IXb4BOxxR04QhAI/7r5i2LeRXjxs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

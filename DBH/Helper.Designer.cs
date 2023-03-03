@@ -2,6 +2,17 @@
 {
     partial class Helper
     {
+        public static string[] brands = {
+            "Aura",
+            "Caparol",
+            "Dulux",
+            "Eskaro",
+            "Finncolor",
+            "Hammerite",
+            "Marshall",
+            "Pinotex",
+            "TEKC",
+            "Tikkurila"};
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
@@ -73,17 +84,7 @@
             this.brandsBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandsBox.FormattingEnabled = true;
-            this.brandsBox.Items.AddRange(new object[] {
-            "Aura",
-            "Caparol",
-            "Dulux",
-            "Eskaro",
-            "Finncolor",
-            "Hammerite",
-            "Marshall",
-            "Pinotex",
-            "TEKC",
-            "Tikkurila"});
+            this.brandsBox.Items.AddRange(DBH.Helper.brands);
             this.brandsBox.Location = new System.Drawing.Point(15, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";

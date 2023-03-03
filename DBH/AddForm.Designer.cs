@@ -2,6 +2,34 @@
 {
     partial class AddForm
     {
+        public static string[] bases = {
+            "A",
+            "AP",
+            "ARG",
+            "BB",
+            "BC",
+            "BRO",
+            "BT",
+            "BW",
+            "C",
+            "D",
+            "DD",
+            "EC",
+            "EP",
+            "MRA",
+            "MRC",
+            "NEU",
+            "ORO",
+            "PER",
+            "TR",
+            "VC",
+            "VVA",
+            "Б1",
+            "Б3",
+            "Гл",
+            "Мат",
+            "П/м",
+            "П/гл"};
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -73,17 +101,7 @@
             this.brandBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandBox.FormattingEnabled = true;
-            this.brandBox.Items.AddRange(new object[] {
-            "Aura",
-            "Caparol",
-            "Dulux",
-            "Eskaro",
-            "Finncolor",
-            "Hammerite",
-            "Marshall",
-            "Pinotex",
-            "TEKC",
-            "Tikkurila"});
+            this.brandBox.Items.AddRange(DBH.Helper.brands);
             this.brandBox.Location = new System.Drawing.Point(74, 31);
             this.brandBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.brandBox.Name = "brandBox";
@@ -133,28 +151,7 @@
             this.baseBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox1.FormattingEnabled = true;
-            this.baseBox1.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox1.Items.AddRange(DBH.AddForm.bases); 
             this.baseBox1.Location = new System.Drawing.Point(14, 169);
             this.baseBox1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox1.Name = "baseBox1";
@@ -260,28 +257,7 @@
             this.baseBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox2.FormattingEnabled = true;
-            this.baseBox2.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox2.Items.AddRange(DBH.AddForm.bases);
             this.baseBox2.Location = new System.Drawing.Point(14, 202);
             this.baseBox2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox2.Name = "baseBox2";
@@ -326,28 +302,7 @@
             this.baseBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox3.FormattingEnabled = true;
-            this.baseBox3.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox3.Items.AddRange(DBH.AddForm.bases);
             this.baseBox3.Location = new System.Drawing.Point(14, 235);
             this.baseBox3.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox3.Name = "baseBox3";
@@ -392,28 +347,7 @@
             this.baseBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox4.FormattingEnabled = true;
-            this.baseBox4.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox4.Items.AddRange(DBH.AddForm.bases);
             this.baseBox4.Location = new System.Drawing.Point(14, 268);
             this.baseBox4.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox4.Name = "baseBox4";
@@ -458,28 +392,7 @@
             this.baseBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox5.FormattingEnabled = true;
-            this.baseBox5.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox5.Items.AddRange(DBH.AddForm.bases);
             this.baseBox5.Location = new System.Drawing.Point(14, 302);
             this.baseBox5.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox5.Name = "baseBox5";
@@ -524,28 +437,7 @@
             this.baseBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox6.FormattingEnabled = true;
-            this.baseBox6.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox6.Items.AddRange(DBH.AddForm.bases);
             this.baseBox6.Location = new System.Drawing.Point(14, 335);
             this.baseBox6.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox6.Name = "baseBox6";
@@ -588,28 +480,7 @@
             this.baseBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox7.FormattingEnabled = true;
-            this.baseBox7.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox7.Items.AddRange(DBH.AddForm.bases);
             this.baseBox7.Location = new System.Drawing.Point(14, 368);
             this.baseBox7.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox7.Name = "baseBox7";
@@ -654,28 +525,7 @@
             this.baseBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baseBox8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.baseBox8.FormattingEnabled = true;
-            this.baseBox8.Items.AddRange(new object[] {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
-            "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
-            "NEU",
-            "ORO",
-            "PER",
-            "TR",
-            "VC",
-            "VVA"});
+            this.baseBox8.Items.AddRange(DBH.AddForm.bases);
             this.baseBox8.Location = new System.Drawing.Point(14, 401);
             this.baseBox8.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.baseBox8.Name = "baseBox8";

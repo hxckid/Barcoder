@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="DBH.exe.manifest" size="5171">
+    <dependentAssembly dependencyType="install" codebase="DBH.exe.manifest" size="5835">
       <assemblyIdentity name="DBH.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Abe5P5xR2AgdzVRpas4DhcHzDMHQJ6cFNcHAGpAhWjI=</dsig:DigestValue>
+        <dsig:DigestValue>IF4XiE+7oqHY5BtjiuLoXccNP+CqJc3EtCP9KxT6/Eg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
