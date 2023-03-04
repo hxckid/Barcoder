@@ -80,15 +80,6 @@ namespace Barcoder
                             string curBarcode = paint.Data[i].Barcode.Replace(" ", "");
                             btnList[i].Visible = true;
                             btnList[i].Text = $" {curBase} | {curVolume} | {curBarcode}";
-                            //switch (curBase.Length)
-                            //{
-                            //    case 1:
-                            //        btnList[i].Text = $" ㅤ{curBase}ㅤ| {curVolume} | {curBarcode}";
-                            //        break;
-                            //    default:
-                            //        btnList[i].Text = $" {curBase} | {curVolume} | {curBarcode}";
-                            //        break;
-                            //}
                             btnList[i].Image = GenerateBarcode(curBarcode);
                             switch (curBase)
                             {
