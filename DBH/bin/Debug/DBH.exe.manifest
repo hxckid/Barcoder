@@ -50,19 +50,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oJjTeDvsMA+DYIPochDsBxGo6MUpgA1y+fadxFD781Y=</dsig:DigestValue>
+        <dsig:DigestValue>Qf7Om6vuzHDNtrMTG7EFCKBoqw7wMBNK+pjQF4wfmTk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBH.exe" size="149504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBH.exe" size="150016">
       <assemblyIdentity name="DBH" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kUciLyqoT5ciGOaBd6cjy46qVN5CkoeITdnEXCBPdFQ=</dsig:DigestValue>
+        <dsig:DigestValue>5+XsRtLGg/G5h710WLcOJKFiIE6hrdLDjACQYOzZ2IY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

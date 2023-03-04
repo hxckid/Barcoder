@@ -4,17 +4,6 @@ namespace Barcoder
 {
     partial class Barcoder
     {
-        public static string[] brands = {
-            "Aura",
-            "Caparol",
-            "Dulux",
-            "Eskaro",
-            "Finncolor",
-            "Hammerite",
-            "Marshall",
-            "Pinotex",
-            "TEKC",
-            "Tikkurila"};
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
@@ -62,40 +51,50 @@ namespace Barcoder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
             "Aura",
-            "Caparol",
+            "Dufa",
             "Dulux",
             "Eskaro",
             "Finncolor",
             "Hammerite",
+            "Holzer",
             "Marshall",
+            "Parade",
             "Pinotex",
+            "Rossetti",
             "TEKC",
-            "Tikkurila"});
+            "Tikkurila",
+            "Лакра",
+            "Текстурол"});
             this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.brandsBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.brandsBox.DisplayMember = "Brand";
             this.brandsBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.brandsBox.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.brandsBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandsBox.ForeColor = System.Drawing.Color.Black;
             this.brandsBox.FormattingEnabled = true;
-            this.brandsBox.ItemHeight = 25;
+            this.brandsBox.ItemHeight = 24;
             this.brandsBox.Items.AddRange(new object[] {
             "Aura",
-            "Caparol",
+            "Dufa",
             "Dulux",
             "Eskaro",
             "Finncolor",
             "Hammerite",
+            "Holzer",
             "Marshall",
+            "Parade",
             "Pinotex",
+            "Rossetti",
             "TEKC",
-            "Tikkurila"});
+            "Tikkurila",
+            "Лакра",
+            "Текстурол"});
             this.brandsBox.Location = new System.Drawing.Point(10, 10);
             this.brandsBox.MaxDropDownItems = 10;
             this.brandsBox.Name = "brandsBox";
             this.brandsBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.brandsBox.Size = new System.Drawing.Size(280, 33);
+            this.brandsBox.Size = new System.Drawing.Size(251, 32);
             this.brandsBox.Sorted = true;
             this.brandsBox.TabIndex = 0;
             this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
@@ -109,15 +108,15 @@ namespace Barcoder
             this.productsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.productsBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.productsBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.productsBox.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.productsBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.productsBox.ForeColor = System.Drawing.Color.Black;
             this.productsBox.FormattingEnabled = true;
-            this.productsBox.ItemHeight = 25;
+            this.productsBox.ItemHeight = 24;
             this.productsBox.Location = new System.Drawing.Point(10, 50);
             this.productsBox.MaxDropDownItems = 10;
             this.productsBox.Name = "productsBox";
             this.productsBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.productsBox.Size = new System.Drawing.Size(280, 33);
+            this.productsBox.Size = new System.Drawing.Size(251, 32);
             this.productsBox.Sorted = true;
             this.productsBox.TabIndex = 1;
             this.productsBox.SelectedIndexChanged += new System.EventHandler(this.productsBox_SelectedIndexChanged);
@@ -126,13 +125,13 @@ namespace Barcoder
             // 
             this.copiedLabel.AutoSize = true;
             this.copiedLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.copiedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.copiedLabel.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.copiedLabel.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.copiedLabel.Location = new System.Drawing.Point(0, 431);
+            this.copiedLabel.Location = new System.Drawing.Point(0, 432);
             this.copiedLabel.Margin = new System.Windows.Forms.Padding(0);
             this.copiedLabel.Name = "copiedLabel";
             this.copiedLabel.Padding = new System.Windows.Forms.Padding(55, 0, 0, 5);
-            this.copiedLabel.Size = new System.Drawing.Size(55, 30);
+            this.copiedLabel.Size = new System.Drawing.Size(55, 29);
             this.copiedLabel.TabIndex = 3;
             this.copiedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -141,11 +140,11 @@ namespace Barcoder
             this.dataBtn1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn1.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn1.Location = new System.Drawing.Point(10, 90);
             this.dataBtn1.Name = "dataBtn1";
-            this.dataBtn1.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn1.Size = new System.Drawing.Size(251, 40);
             this.dataBtn1.TabIndex = 3;
             this.dataBtn1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn1.UseVisualStyleBackColor = true;
@@ -156,11 +155,11 @@ namespace Barcoder
             this.dataBtn2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn2.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn2.Location = new System.Drawing.Point(10, 130);
             this.dataBtn2.Name = "dataBtn2";
-            this.dataBtn2.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn2.Size = new System.Drawing.Size(251, 40);
             this.dataBtn2.TabIndex = 4;
             this.dataBtn2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn2.UseVisualStyleBackColor = true;
@@ -171,11 +170,11 @@ namespace Barcoder
             this.dataBtn3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn3.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn3.Location = new System.Drawing.Point(10, 170);
             this.dataBtn3.Name = "dataBtn3";
-            this.dataBtn3.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn3.Size = new System.Drawing.Size(251, 40);
             this.dataBtn3.TabIndex = 5;
             this.dataBtn3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn3.UseVisualStyleBackColor = true;
@@ -186,11 +185,11 @@ namespace Barcoder
             this.dataBtn4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn4.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn4.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn4.Location = new System.Drawing.Point(10, 210);
             this.dataBtn4.Name = "dataBtn4";
-            this.dataBtn4.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn4.Size = new System.Drawing.Size(251, 40);
             this.dataBtn4.TabIndex = 6;
             this.dataBtn4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn4.UseVisualStyleBackColor = true;
@@ -201,11 +200,11 @@ namespace Barcoder
             this.dataBtn5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn5.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn5.Location = new System.Drawing.Point(10, 250);
             this.dataBtn5.Name = "dataBtn5";
-            this.dataBtn5.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn5.Size = new System.Drawing.Size(251, 40);
             this.dataBtn5.TabIndex = 7;
             this.dataBtn5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn5.UseVisualStyleBackColor = true;
@@ -216,11 +215,11 @@ namespace Barcoder
             this.dataBtn6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn6.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn6.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn6.Location = new System.Drawing.Point(10, 290);
             this.dataBtn6.Name = "dataBtn6";
-            this.dataBtn6.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn6.Size = new System.Drawing.Size(251, 40);
             this.dataBtn6.TabIndex = 8;
             this.dataBtn6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn6.UseVisualStyleBackColor = true;
@@ -231,11 +230,11 @@ namespace Barcoder
             this.dataBtn7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn7.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn7.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn7.Location = new System.Drawing.Point(10, 330);
             this.dataBtn7.Name = "dataBtn7";
-            this.dataBtn7.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn7.Size = new System.Drawing.Size(251, 40);
             this.dataBtn7.TabIndex = 9;
             this.dataBtn7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn7.UseVisualStyleBackColor = true;
@@ -246,11 +245,11 @@ namespace Barcoder
             this.dataBtn8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataBtn8.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataBtn8.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataBtn8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn8.Location = new System.Drawing.Point(10, 370);
             this.dataBtn8.Name = "dataBtn8";
-            this.dataBtn8.Size = new System.Drawing.Size(280, 40);
+            this.dataBtn8.Size = new System.Drawing.Size(251, 40);
             this.dataBtn8.TabIndex = 10;
             this.dataBtn8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn8.UseVisualStyleBackColor = true;
@@ -260,7 +259,7 @@ namespace Barcoder
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(299, 461);
+            this.ClientSize = new System.Drawing.Size(270, 461);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
             this.Controls.Add(this.dataBtn6);

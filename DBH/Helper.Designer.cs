@@ -4,15 +4,20 @@
     {
         public static string[] brands = {
             "Aura",
-            "Caparol",
+            "Dufa",
             "Dulux",
             "Eskaro",
             "Finncolor",
             "Hammerite",
+            "Holzer",
             "Marshall",
+            "Parade",
             "Pinotex",
+            "Rossetti",
             "TEKC",
-            "Tikkurila"};
+            "Tikkurila",
+            "Лакра",
+            "Текстурол"};
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
