@@ -62,7 +62,7 @@
             this.brandsBox.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandsBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandsBox.FormattingEnabled = true;
-            this.brandsBox.Items.AddRange(DBH.Helper.brands);
+            this.brandsBox.Items.AddRange(brands);
             this.brandsBox.Location = new System.Drawing.Point(15, 10);
             this.brandsBox.MaxDropDownItems = 100;
             this.brandsBox.Name = "brandsBox";
