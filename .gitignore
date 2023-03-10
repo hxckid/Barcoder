@@ -1,2 +1,10 @@
 
 Barcoder/.vs/Barcoder/v16/.suo
+*.pdb
+DBH/bin/Debug/Barcoder.pdb
+DBH/bin/Debug/DBH.application
+DBH/bin/Debug/DBH.exe.config
+DBH/bin/Debug/DBH.exe.manifest
+DBH/bin/Debug/DBH.pdb
+DBH/bin/Debug/Barcoder.exe.config
+DBH/bin/Debug/app.publish/DBH.exe
