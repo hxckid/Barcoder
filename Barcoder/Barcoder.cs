@@ -79,7 +79,7 @@ namespace Barcoder
                             string curVolume = paint.Data[i].Volume.Replace(" ", "");
                             string curBarcode = paint.Data[i].Barcode.Replace(" ", "");
                             btnList[i].Visible = true;
-                            btnList[i].Text = $" {curBase} | {curVolume} | {curBarcode}";
+                            btnList[i].Text = $"{curBase} | {curVolume} | {curBarcode}";
                             btnList[i].Image = GenerateBarcode(curBarcode);
                             switch (curBase)
                             {
@@ -190,56 +190,56 @@ namespace Barcoder
 
         private void dataBtn1_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn1.Text.Substring(dataBtn1.Text.Length - 6);
+            string barcode = dataBtn1.Text.Substring(dataBtn1.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn2_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn2.Text.Substring(dataBtn2.Text.Length - 6);
+            string barcode = dataBtn2.Text.Substring(dataBtn2.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn3_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn3.Text.Substring(dataBtn3.Text.Length - 6);
+            string barcode = dataBtn3.Text.Substring(dataBtn3.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn4_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn4.Text.Substring(dataBtn4.Text.Length - 6);
+            string barcode = dataBtn4.Text.Substring(dataBtn4.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn5_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn5.Text.Substring(dataBtn5.Text.Length - 6);
+            string barcode = dataBtn5.Text.Substring(dataBtn5.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn6_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn6.Text.Substring(dataBtn6.Text.Length - 6);
+            string barcode = dataBtn6.Text.Substring(dataBtn6.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn7_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn7.Text.Substring(dataBtn7.Text.Length - 6);
+            string barcode = dataBtn7.Text.Substring(dataBtn7.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn8_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn8.Text.Substring(dataBtn8.Text.Length - 6);
+            string barcode = dataBtn8.Text.Substring(dataBtn8.Text.Length - 5);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }

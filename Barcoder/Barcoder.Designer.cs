@@ -94,7 +94,7 @@ namespace Barcoder
             this.brandsBox.MaxDropDownItems = 10;
             this.brandsBox.Name = "brandsBox";
             this.brandsBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.brandsBox.Size = new System.Drawing.Size(251, 32);
+            this.brandsBox.Size = new System.Drawing.Size(256, 32);
             this.brandsBox.Sorted = true;
             this.brandsBox.TabIndex = 0;
             this.brandsBox.SelectedIndexChanged += new System.EventHandler(this.brandsBox_SelectedIndexChanged);
@@ -116,7 +116,7 @@ namespace Barcoder
             this.productsBox.MaxDropDownItems = 10;
             this.productsBox.Name = "productsBox";
             this.productsBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.productsBox.Size = new System.Drawing.Size(251, 32);
+            this.productsBox.Size = new System.Drawing.Size(256, 32);
             this.productsBox.Sorted = true;
             this.productsBox.TabIndex = 1;
             this.productsBox.SelectedIndexChanged += new System.EventHandler(this.productsBox_SelectedIndexChanged);
@@ -144,7 +144,7 @@ namespace Barcoder
             this.dataBtn1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn1.Location = new System.Drawing.Point(10, 90);
             this.dataBtn1.Name = "dataBtn1";
-            this.dataBtn1.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn1.Size = new System.Drawing.Size(256, 40);
             this.dataBtn1.TabIndex = 3;
             this.dataBtn1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn1.UseVisualStyleBackColor = true;
@@ -159,7 +159,7 @@ namespace Barcoder
             this.dataBtn2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn2.Location = new System.Drawing.Point(10, 130);
             this.dataBtn2.Name = "dataBtn2";
-            this.dataBtn2.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn2.Size = new System.Drawing.Size(256, 40);
             this.dataBtn2.TabIndex = 4;
             this.dataBtn2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn2.UseVisualStyleBackColor = true;
@@ -174,7 +174,7 @@ namespace Barcoder
             this.dataBtn3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn3.Location = new System.Drawing.Point(10, 170);
             this.dataBtn3.Name = "dataBtn3";
-            this.dataBtn3.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn3.Size = new System.Drawing.Size(256, 40);
             this.dataBtn3.TabIndex = 5;
             this.dataBtn3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn3.UseVisualStyleBackColor = true;
@@ -189,7 +189,7 @@ namespace Barcoder
             this.dataBtn4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn4.Location = new System.Drawing.Point(10, 210);
             this.dataBtn4.Name = "dataBtn4";
-            this.dataBtn4.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn4.Size = new System.Drawing.Size(256, 40);
             this.dataBtn4.TabIndex = 6;
             this.dataBtn4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn4.UseVisualStyleBackColor = true;
@@ -204,7 +204,7 @@ namespace Barcoder
             this.dataBtn5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn5.Location = new System.Drawing.Point(10, 250);
             this.dataBtn5.Name = "dataBtn5";
-            this.dataBtn5.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn5.Size = new System.Drawing.Size(256, 40);
             this.dataBtn5.TabIndex = 7;
             this.dataBtn5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn5.UseVisualStyleBackColor = true;
@@ -219,7 +219,7 @@ namespace Barcoder
             this.dataBtn6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn6.Location = new System.Drawing.Point(10, 290);
             this.dataBtn6.Name = "dataBtn6";
-            this.dataBtn6.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn6.Size = new System.Drawing.Size(256, 40);
             this.dataBtn6.TabIndex = 8;
             this.dataBtn6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn6.UseVisualStyleBackColor = true;
@@ -234,7 +234,7 @@ namespace Barcoder
             this.dataBtn7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn7.Location = new System.Drawing.Point(10, 330);
             this.dataBtn7.Name = "dataBtn7";
-            this.dataBtn7.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn7.Size = new System.Drawing.Size(256, 40);
             this.dataBtn7.TabIndex = 9;
             this.dataBtn7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn7.UseVisualStyleBackColor = true;
@@ -249,7 +249,7 @@ namespace Barcoder
             this.dataBtn8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn8.Location = new System.Drawing.Point(10, 370);
             this.dataBtn8.Name = "dataBtn8";
-            this.dataBtn8.Size = new System.Drawing.Size(251, 40);
+            this.dataBtn8.Size = new System.Drawing.Size(256, 40);
             this.dataBtn8.TabIndex = 10;
             this.dataBtn8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn8.UseVisualStyleBackColor = true;
@@ -259,7 +259,7 @@ namespace Barcoder
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(270, 461);
+            this.ClientSize = new System.Drawing.Size(275, 461);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
             this.Controls.Add(this.dataBtn6);
@@ -271,7 +271,6 @@ namespace Barcoder
             this.Controls.Add(this.copiedLabel);
             this.Controls.Add(this.productsBox);
             this.Controls.Add(this.brandsBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Barcoder";
             this.ShowIcon = false;
