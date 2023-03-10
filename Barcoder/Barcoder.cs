@@ -113,6 +113,7 @@ namespace Barcoder
                                 case "BW":
                                 case "VVA":
                                 case "MRA":
+                                case "Б1":
                                     btnList[i].BackColor = Color.White;
                                     break;
                                 case "BC":
@@ -121,11 +122,16 @@ namespace Barcoder
                                 case "TR":
                                 case "MRC":
                                 case "VC":
+                                case "Б3":
                                     btnList[i].BackColor = Color.IndianRed;
                                     break;
                                 case "EP":
                                 case "EC":
                                 case "NEU":
+                                case "Гл":
+                                case "Мат":
+                                case "П/м":
+                                case "П/гл":
                                     btnList[i].BackColor = Color.AntiqueWhite;
                                     break;
                                 case "ORO":
@@ -307,6 +313,7 @@ namespace Barcoder
                 case AppMode.Petrovich:
                     this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
                         "Aura",
+                        "CarteBlanche",
                         "Dufa",
                         "Dulux",
                         "Eskaro",
@@ -320,6 +327,7 @@ namespace Barcoder
                         "Tikkurila"});
                     this.brandsBox.Items.AddRange(new object[] {
                         "Aura",
+                        "CarteBlanche",
                         "Dufa",
                         "Dulux",
                         "Eskaro",

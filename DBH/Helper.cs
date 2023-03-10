@@ -122,6 +122,7 @@ namespace DBH
                 case AppMode.Petrovich:
                     brands = new string[] {
                         "Aura",
+                        "CarteBlanche",
                         "Dufa",
                         "Dulux",
                         "Eskaro",

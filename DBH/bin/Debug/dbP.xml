@@ -5704,4 +5704,96 @@
     <Brand>Dulux</Brand>
     <Product>Diamond Extra Matt</Product>
   </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>BL</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920514</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BL</Base>
+        <Volume>10</Volume>
+        <Barcode>920515</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Trend Black</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920416</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>10</Volume>
+        <Barcode>920417</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Superweiss</Product>
+  </Paint>
 </ArrayOfPaint>
