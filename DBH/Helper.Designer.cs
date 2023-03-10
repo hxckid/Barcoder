@@ -2,31 +2,10 @@
 {
     partial class Helper
     {
-        public static string[] brands = {
-            "Aura",
-            "Dufa",
-            "Dulux",
-            "Eskaro",
-            "Finncolor",
-            "Hammerite",
-            "Holzer",
-            "Marshall",
-            "Parade",
-            "Pinotex",
-            "Rossetti",
-            "TEKC",
-            "Tikkurila",
-            "Лакра",
-            "Текстурол"};
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
+        public static string[] brands = { };
+
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Освободить все используемые ресурсы.
-        /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -36,12 +15,6 @@
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
-
-        /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
-        /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -155,8 +128,6 @@
             this.ResumeLayout(false);
 
         }
-
-        #endregion
 
         private System.Windows.Forms.Button addBtn;
         private System.Windows.Forms.Button removeBtn;

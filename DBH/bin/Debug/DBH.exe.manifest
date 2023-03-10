@@ -43,26 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Barcoder.exe" size="438784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Barcoder.exe" size="439808">
       <assemblyIdentity name="Barcoder" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>e6wBci95Z0vQjo1Ff+cbybqeowLbC8uJDttAghEz+9I=</dsig:DigestValue>
+        <dsig:DigestValue>9w/Ygq0lCEZ6wFA2DpY5MsX0MBdA8OOMx54Vu+n360U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBH.exe" size="150016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBH.exe" size="150528">
       <assemblyIdentity name="DBH" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5+XsRtLGg/G5h710WLcOJKFiIE6hrdLDjACQYOzZ2IY=</dsig:DigestValue>
+        <dsig:DigestValue>HjOqAktPlepmoDdYdfBxVMb3UznTWrOSduMlHnkwD+4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

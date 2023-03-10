@@ -16,18 +16,40 @@ namespace Barcoder
 {
     public partial class Barcoder : Form
     {
-        List<Paint> db = new List<Paint>();
-        XmlSerializer formatter = new XmlSerializer(typeof(List<Paint>));
-        List<Button> btnList = new List<Button>();
+        AppMode curMode = AppMode.Petrovich;
+        string fileName = "";
+        List<Paint> db;
+        XmlSerializer formatter;
+        List<Button> btnList;
 
         public Barcoder()
         {
+            MainInit();
+        }
+
+        void MainInit()
+        {
+            db = new List<Paint>();
+            formatter = new XmlSerializer(typeof(List<Paint>));
+            btnList = new List<Button>();
+
             InitializeComponent();
             InitializeButtons();
             LockAndClearButtons();
+            InitRanges();
             //IniializeDB();
 
-            using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate))
+            switch (curMode)
+            {
+                case AppMode.Maxidom:
+                    fileName = "dbM.xml";
+                    break;
+                case AppMode.Petrovich:
+                    fileName = "dbP.xml";
+                    break;
+            }
+
+            using (FileStream fs = new FileStream(fileName, FileMode.OpenOrCreate))
             {
                 db = (List<Paint>)formatter.Deserialize(fs);
             }
@@ -44,6 +66,7 @@ namespace Barcoder
             btnList.Add(dataBtn7);
             btnList.Add(dataBtn8);
         }
+
 
         private void brandsBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -190,58 +213,128 @@ namespace Barcoder
 
         private void dataBtn1_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn1.Text.Substring(dataBtn1.Text.Length - 5);
+            string barcode = dataBtn1.Text.Substring(dataBtn1.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn2_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn2.Text.Substring(dataBtn2.Text.Length - 5);
+            string barcode = dataBtn2.Text.Substring(dataBtn2.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn3_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn3.Text.Substring(dataBtn3.Text.Length - 5);
+            string barcode = dataBtn3.Text.Substring(dataBtn3.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn4_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn4.Text.Substring(dataBtn4.Text.Length - 5);
+            string barcode = dataBtn4.Text.Substring(dataBtn4.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn5_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn5.Text.Substring(dataBtn5.Text.Length - 5);
+            string barcode = dataBtn5.Text.Substring(dataBtn5.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn6_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn6.Text.Substring(dataBtn6.Text.Length - 5);
+            string barcode = dataBtn6.Text.Substring(dataBtn6.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn7_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn7.Text.Substring(dataBtn7.Text.Length - 5);
+            string barcode = dataBtn7.Text.Substring(dataBtn7.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
         private void dataBtn8_Click(object sender, EventArgs e)
         {
-            string barcode = dataBtn8.Text.Substring(dataBtn8.Text.Length - 5);
+            string barcode = dataBtn8.Text.Substring(dataBtn8.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
+        }
+        void InitRanges()
+        {
+            switch (curMode)
+            {
+                case AppMode.Maxidom:
+                    this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
+                        "Aura",
+                        "Dufa",
+                        "Dulux",
+                        "Eskaro",
+                        "Finncolor",
+                        "Hammerite",
+                        "Holzer",
+                        "Marshall",
+                        "Parade",
+                        "Pinotex",
+                        "Rossetti",
+                        "TEKC",
+                        "Tikkurila",
+                        "Лакра",
+                        "Текстурол"});
+                    this.brandsBox.Items.AddRange(new object[] {
+                        "Aura",
+                        "Dufa",
+                        "Dulux",
+                        "Eskaro",
+                        "Finncolor",
+                        "Hammerite",
+                        "Holzer",
+                        "Marshall",
+                        "Parade",
+                        "Pinotex",
+                        "Rossetti",
+                        "TEKC",
+                        "Tikkurila",
+                        "Лакра",
+                        "Текстурол"});
+                    break;
+                case AppMode.Petrovich:
+                    this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
+                        "Aura",
+                        "Dufa",
+                        "Dulux",
+                        "Eskaro",
+                        "Finncolor",
+                        "Hammerite",
+                        "L'Impression",
+                        "Marshall",
+                        "Parade",
+                        "Pinotex",
+                        "TEKC",
+                        "Tikkurila"});
+                    this.brandsBox.Items.AddRange(new object[] {
+                        "Aura",
+                        "Dufa",
+                        "Dulux",
+                        "Eskaro",
+                        "Finncolor",
+                        "Hammerite",
+                        "L'Impression",
+                        "Marshall",
+                        "Parade",
+                        "Pinotex",
+                        "TEKC",
+                        "Tikkurila"});
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

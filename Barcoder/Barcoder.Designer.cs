@@ -2,17 +2,12 @@
 
 namespace Barcoder
 {
+    public enum AppMode { Maxidom = 5, Petrovich = 6 }
+
     partial class Barcoder
     {
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Освободить все используемые ресурсы.
-        /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -24,10 +19,6 @@ namespace Barcoder
 
         #region Код, автоматически созданный конструктором форм Windows
 
-        /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
-        /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Barcoder));
@@ -42,6 +33,7 @@ namespace Barcoder
             this.dataBtn6 = new System.Windows.Forms.Button();
             this.dataBtn7 = new System.Windows.Forms.Button();
             this.dataBtn8 = new System.Windows.Forms.Button();
+            this.switchModeLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // brandsBox
@@ -49,22 +41,6 @@ namespace Barcoder
             this.brandsBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
-            "Aura",
-            "Dufa",
-            "Dulux",
-            "Eskaro",
-            "Finncolor",
-            "Hammerite",
-            "Holzer",
-            "Marshall",
-            "Parade",
-            "Pinotex",
-            "Rossetti",
-            "TEKC",
-            "Tikkurila",
-            "Лакра",
-            "Текстурол"});
             this.brandsBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.brandsBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.brandsBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -74,22 +50,6 @@ namespace Barcoder
             this.brandsBox.ForeColor = System.Drawing.Color.Black;
             this.brandsBox.FormattingEnabled = true;
             this.brandsBox.ItemHeight = 24;
-            this.brandsBox.Items.AddRange(new object[] {
-            "Aura",
-            "Dufa",
-            "Dulux",
-            "Eskaro",
-            "Finncolor",
-            "Hammerite",
-            "Holzer",
-            "Marshall",
-            "Parade",
-            "Pinotex",
-            "Rossetti",
-            "TEKC",
-            "Tikkurila",
-            "Лакра",
-            "Текстурол"});
             this.brandsBox.Location = new System.Drawing.Point(10, 10);
             this.brandsBox.MaxDropDownItems = 10;
             this.brandsBox.Name = "brandsBox";
@@ -127,7 +87,7 @@ namespace Barcoder
             this.copiedLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.copiedLabel.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.copiedLabel.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.copiedLabel.Location = new System.Drawing.Point(0, 432);
+            this.copiedLabel.Location = new System.Drawing.Point(0, 433);
             this.copiedLabel.Margin = new System.Windows.Forms.Padding(0);
             this.copiedLabel.Name = "copiedLabel";
             this.copiedLabel.Padding = new System.Windows.Forms.Padding(55, 0, 0, 5);
@@ -144,7 +104,7 @@ namespace Barcoder
             this.dataBtn1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn1.Location = new System.Drawing.Point(10, 90);
             this.dataBtn1.Name = "dataBtn1";
-            this.dataBtn1.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn1.Size = new System.Drawing.Size(256, 41);
             this.dataBtn1.TabIndex = 3;
             this.dataBtn1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn1.UseVisualStyleBackColor = true;
@@ -159,7 +119,7 @@ namespace Barcoder
             this.dataBtn2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn2.Location = new System.Drawing.Point(10, 130);
             this.dataBtn2.Name = "dataBtn2";
-            this.dataBtn2.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn2.Size = new System.Drawing.Size(256, 41);
             this.dataBtn2.TabIndex = 4;
             this.dataBtn2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn2.UseVisualStyleBackColor = true;
@@ -174,7 +134,7 @@ namespace Barcoder
             this.dataBtn3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn3.Location = new System.Drawing.Point(10, 170);
             this.dataBtn3.Name = "dataBtn3";
-            this.dataBtn3.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn3.Size = new System.Drawing.Size(256, 41);
             this.dataBtn3.TabIndex = 5;
             this.dataBtn3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn3.UseVisualStyleBackColor = true;
@@ -189,7 +149,7 @@ namespace Barcoder
             this.dataBtn4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn4.Location = new System.Drawing.Point(10, 210);
             this.dataBtn4.Name = "dataBtn4";
-            this.dataBtn4.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn4.Size = new System.Drawing.Size(256, 41);
             this.dataBtn4.TabIndex = 6;
             this.dataBtn4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn4.UseVisualStyleBackColor = true;
@@ -204,7 +164,7 @@ namespace Barcoder
             this.dataBtn5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn5.Location = new System.Drawing.Point(10, 250);
             this.dataBtn5.Name = "dataBtn5";
-            this.dataBtn5.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn5.Size = new System.Drawing.Size(256, 41);
             this.dataBtn5.TabIndex = 7;
             this.dataBtn5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn5.UseVisualStyleBackColor = true;
@@ -219,7 +179,7 @@ namespace Barcoder
             this.dataBtn6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn6.Location = new System.Drawing.Point(10, 290);
             this.dataBtn6.Name = "dataBtn6";
-            this.dataBtn6.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn6.Size = new System.Drawing.Size(256, 41);
             this.dataBtn6.TabIndex = 8;
             this.dataBtn6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn6.UseVisualStyleBackColor = true;
@@ -234,7 +194,7 @@ namespace Barcoder
             this.dataBtn7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn7.Location = new System.Drawing.Point(10, 330);
             this.dataBtn7.Name = "dataBtn7";
-            this.dataBtn7.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn7.Size = new System.Drawing.Size(256, 41);
             this.dataBtn7.TabIndex = 9;
             this.dataBtn7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn7.UseVisualStyleBackColor = true;
@@ -249,17 +209,28 @@ namespace Barcoder
             this.dataBtn8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.dataBtn8.Location = new System.Drawing.Point(10, 370);
             this.dataBtn8.Name = "dataBtn8";
-            this.dataBtn8.Size = new System.Drawing.Size(256, 40);
+            this.dataBtn8.Size = new System.Drawing.Size(256, 41);
             this.dataBtn8.TabIndex = 10;
             this.dataBtn8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn8.UseVisualStyleBackColor = true;
             this.dataBtn8.Click += new System.EventHandler(this.dataBtn8_Click);
             // 
+            // switchModeLabel
+            // 
+            this.switchModeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.switchModeLabel.AutoSize = true;
+            this.switchModeLabel.Location = new System.Drawing.Point(1, 449);
+            this.switchModeLabel.Name = "switchModeLabel";
+            this.switchModeLabel.Size = new System.Drawing.Size(10, 13);
+            this.switchModeLabel.TabIndex = 11;
+            this.switchModeLabel.Text = ".";
+            // 
             // Barcoder
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(275, 461);
+            this.ClientSize = new System.Drawing.Size(275, 462);
+            this.Controls.Add(this.switchModeLabel);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
             this.Controls.Add(this.dataBtn6);
@@ -293,6 +264,7 @@ namespace Barcoder
         private System.Windows.Forms.Button dataBtn6;
         private System.Windows.Forms.Button dataBtn7;
         private System.Windows.Forms.Button dataBtn8;
+        private System.Windows.Forms.Label switchModeLabel;
     }
 }
 

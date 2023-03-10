@@ -13,21 +13,36 @@ using Barcoder;
 
 namespace DBH
 {
+    public enum AppMode { Maxidom = 5, Petrovich = 6 }
+
     public partial class Helper : Form
     {
+        AppMode curMode = AppMode.Petrovich;
+        static string fileName = "";
         public static List<Paint> db = new List<Paint>();
         static XmlSerializer formatter = new XmlSerializer(typeof(List<Paint>));
 
         public Helper()
         {
-            InitializeComponent();
+            switch (curMode) 
+            {
+                case AppMode.Maxidom:
+                    fileName = "dbM.xml";
+                    break;
+                case AppMode.Petrovich:
+                    fileName = "dbP.xml";
+                    break;
+            }
 
+            InitRanges();
+            InitializeComponent();
             ReadDB();
         }
 
+
         internal static void WriteDB()
         {
-            using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            using (FileStream fs = new FileStream(fileName, FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
                 fs.SetLength(0);
                 formatter.Serialize(fs, db);
@@ -36,7 +51,7 @@ namespace DBH
 
         private void ReadDB()
         {
-            using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(fileName, FileMode.OpenOrCreate))
             {
                 db = (List<Paint>)formatter.Deserialize(fs);
             }
@@ -83,6 +98,44 @@ namespace DBH
             brandsBox_SelectedIndexChanged(new object(), new EventArgs());
         }
 
+        private void InitRanges()
+        {
+            switch (curMode)
+            {
+                case AppMode.Maxidom:
+                    brands = new string[] { "Aura",
+                        "Dufa",
+                        "Dulux",
+                        "Eskaro",
+                        "Finncolor",
+                        "Hammerite",
+                        "Holzer",
+                        "Marshall",
+                        "Parade",
+                        "Pinotex",
+                        "Rossetti",
+                        "TEKC",
+                        "Tikkurila",
+                        "Лакра",
+                        "Текстурол"};
+                    break;
+                case AppMode.Petrovich:
+                    brands = new string[] {
+                        "Aura",
+                        "Dufa",
+                        "Dulux",
+                        "Eskaro",
+                        "Finncolor",
+                        "Hammerite",
+                        "L'Impression",
+                        "Marshall",
+                        "Parade",
+                        "Pinotex",
+                        "TEKC",
+                        "Tikkurila"};
+                    break;
+            }
+        }
         private void editBtn_Click(object sender, EventArgs e)
         {
             if (productsBox.SelectedItem == null)
