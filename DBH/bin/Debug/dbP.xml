@@ -6260,52 +6260,6 @@
     <Data>
       <ProductData>
         <Base>Б1</Base>
-        <Volume>2.5</Volume>
-        <Barcode>920418</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Б1</Base>
-        <Volume>10.0</Volume>
-        <Barcode>920419</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Б3</Base>
-        <Volume>2.5</Volume>
-        <Barcode>920420</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Б3</Base>
-        <Volume>10.0</Volume>
-        <Barcode>920421</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Dufa</Brand>
-    <Product>Mattlatex</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>Б1</Base>
         <Volume>0.9</Volume>
         <Barcode>920434</Barcode>
       </ProductData>
@@ -7175,5 +7129,51 @@
     </Data>
     <Brand>L'Impression</Brand>
     <Product>Biblos Perle</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>163221</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>163217</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>TR</Base>
+        <Volume>2.7</Volume>
+        <Barcode>163223</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>TR</Base>
+        <Volume>9.0</Volume>
+        <Barcode>163222</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Aura</Brand>
+    <Product>Mattlatex</Product>
   </Paint>
 </ArrayOfPaint>
