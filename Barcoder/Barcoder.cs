@@ -252,25 +252,14 @@ namespace Barcoder
         {
             var brands = new List<string>();
 
-            switch (curMode)
-            {
-                case AppMode.Maxidom:
-                    brands.AddRange(new[] {
-                "Aura", "Dufa", "Dulux", "Eskaro", "Finncolor",
-                "Hammerite", "Holzer", "Marshall", "Parade",
-                "Pinotex", "Rossetti", "TEKC", "Tikkurila",
-                "Лакра", "Текстурол" });
-                    break;
-                case AppMode.Petrovich:
-                    brands.AddRange(new[] {
-                "Aura", "CarteBlanche", "Dufa", "Dulux",
-                "Eskaro", "Finncolor", "Hammerite",
-                "L'Impression", "Marshall", "Parade",
-                "Pinotex", "Pragmatic", "TEKC", "Tikkurila" });
-                    break;
-                default:
-                    return;
-            }
+            var iniFile = File.ReadAllLines("settings.ini");
+            var brandSection = (int)curMode == 5 ? "Maxidom Brands" : "Petrovich Brands";
+
+            // Get the brands from the brand section
+            brands = iniFile.SkipWhile(x => !x.StartsWith($"[{brandSection}]"))
+                               .Skip(1)
+                               .TakeWhile(x => !string.IsNullOrWhiteSpace(x))
+                               .ToList();
 
             this.brandsBox.AutoCompleteCustomSource.AddRange(brands.ToArray());
             this.brandsBox.Items.AddRange(brands.ToArray());
