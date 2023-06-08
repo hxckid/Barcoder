@@ -16,7 +16,7 @@ namespace Barcoder
 {
     public partial class Barcoder : Form
     {
-        AppMode curMode = AppMode.Petrovich;
+        AppMode curMode;
         string fileName = "";
         List<Paint> db;
         XmlSerializer formatter;
@@ -36,8 +36,8 @@ namespace Barcoder
             InitializeComponent();
             InitializeButtons();
             LockAndClearButtons();
-            InitRanges();
-            //IniializeDB();
+            SetRetailer();
+            //InitializeDB();
 
             switch (curMode)
             {
@@ -48,6 +48,7 @@ namespace Barcoder
                     fileName = "dbP.xml";
                     break;
             }
+            InitRanges();
 
             using (FileStream fs = new FileStream(fileName, FileMode.OpenOrCreate))
             {
@@ -55,18 +56,46 @@ namespace Barcoder
             }
         }
 
-        private void InitializeButtons()
+        private void SetRetailer()
         {
-            btnList.Add(dataBtn1);
-            btnList.Add(dataBtn2);
-            btnList.Add(dataBtn3);
-            btnList.Add(dataBtn4);
-            btnList.Add(dataBtn5);
-            btnList.Add(dataBtn6);
-            btnList.Add(dataBtn7);
-            btnList.Add(dataBtn8);
+            string configFile = "settings.ini";
+            int currentModeInt = 0;
+
+            // Read the settings.ini file and extract the CurrentMode value
+            if (File.Exists(configFile))
+            {
+                string[] lines = File.ReadAllLines(configFile);
+                foreach (string line in lines)
+                {
+                    if (line.StartsWith("CurrentMode="))
+                    {
+                        string modeStr = line.Substring("CurrentMode=".Length);
+                        if (int.TryParse(modeStr, out currentModeInt))
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+
+            // Set the AppMode variable based on the CurrentMode value
+            switch (currentModeInt)
+            {
+                case 5:
+                    curMode = AppMode.Maxidom;
+                    break;
+                case 6:
+                    curMode = AppMode.Petrovich;
+                    break;
+                default:
+                    throw new Exception("Invalid CurrentMode value in settings.ini. 5 - Maxidom, 6 - Petrovich");
+            }
         }
 
+        private void InitializeButtons()
+        {
+            btnList = new List<Button> { dataBtn1, dataBtn2, dataBtn3, dataBtn4, dataBtn5, dataBtn6, dataBtn7, dataBtn8 };
+        }
 
         private void brandsBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -157,7 +186,7 @@ namespace Barcoder
             }
         }
 
-        private void IniializeDB()
+        private void InitializeDB()
         {
             Paint paint = new Paint();
             paint.Brand = "";
@@ -207,142 +236,44 @@ namespace Barcoder
 
         private void LockAndClearButtons()
         {
-            dataBtn1.Visible = false;
-            dataBtn2.Visible = false;
-            dataBtn3.Visible = false;
-            dataBtn4.Visible = false;
-            dataBtn5.Visible = false;
-            dataBtn6.Visible = false;
-            dataBtn7.Visible = false;
-            dataBtn8.Visible = false;
+            foreach (Button btn in new Button[] { dataBtn1, dataBtn2, dataBtn3, dataBtn4, dataBtn5, dataBtn6, dataBtn7, dataBtn8 })
+                btn.Visible = false;
         }
 
-        private void dataBtn1_Click(object sender, EventArgs e)
+        private void DataBtnsHandler(object sender, EventArgs e)
         {
-            string barcode = dataBtn1.Text.Substring(dataBtn1.Text.Length - (int)curMode);
+            Button button = (Button)sender;
+            string barcode = button.Text.Substring(button.Text.Length - (int)curMode);
             Clipboard.SetData(DataFormats.Text, barcode);
             copiedLabel.Text = $"Скопирован: {barcode}";
         }
 
-        private void dataBtn2_Click(object sender, EventArgs e)
-        {
-            string barcode = dataBtn2.Text.Substring(dataBtn2.Text.Length - (int)curMode);
-            Clipboard.SetData(DataFormats.Text, barcode);
-            copiedLabel.Text = $"Скопирован: {barcode}";
-        }
-
-        private void dataBtn3_Click(object sender, EventArgs e)
-        {
-            string barcode = dataBtn3.Text.Substring(dataBtn3.Text.Length - (int)curMode);
-            Clipboard.SetData(DataFormats.Text, barcode);
-            copiedLabel.Text = $"Скопирован: {barcode}";
-        }
-
-        private void dataBtn4_Click(object sender, EventArgs e)
-        {
-            string barcode = dataBtn4.Text.Substring(dataBtn4.Text.Length - (int)curMode);
-            Clipboard.SetData(DataFormats.Text, barcode);
-            copiedLabel.Text = $"Скопирован: {barcode}";
-        }
-
-        private void dataBtn5_Click(object sender, EventArgs e)
-        {
-            string barcode = dataBtn5.Text.Substring(dataBtn5.Text.Length - (int)curMode);
-            Clipboard.SetData(DataFormats.Text, barcode);
-            copiedLabel.Text = $"Скопирован: {barcode}";
-        }
-
-        private void dataBtn6_Click(object sender, EventArgs e)
-        {
-            string barcode = dataBtn6.Text.Substring(dataBtn6.Text.Length - (int)curMode);
-            Clipboard.SetData(DataFormats.Text, barcode);
-            copiedLabel.Text = $"Скопирован: {barcode}";
-        }
-
-        private void dataBtn7_Click(object sender, EventArgs e)
-        {
-            string barcode = dataBtn7.Text.Substring(dataBtn7.Text.Length - (int)curMode);
-            Clipboard.SetData(DataFormats.Text, barcode);
-            copiedLabel.Text = $"Скопирован: {barcode}";
-        }
-
-        private void dataBtn8_Click(object sender, EventArgs e)
-        {
-            string barcode = dataBtn8.Text.Substring(dataBtn8.Text.Length - (int)curMode);
-            Clipboard.SetData(DataFormats.Text, barcode);
-            copiedLabel.Text = $"Скопирован: {barcode}";
-        }
         void InitRanges()
         {
+            var brands = new List<string>();
+
             switch (curMode)
             {
                 case AppMode.Maxidom:
-                    this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
-                        "Aura",
-                        "Dufa",
-                        "Dulux",
-                        "Eskaro",
-                        "Finncolor",
-                        "Hammerite",
-                        "Holzer",
-                        "Marshall",
-                        "Parade",
-                        "Pinotex",
-                        "Rossetti",
-                        "TEKC",
-                        "Tikkurila",
-                        "Лакра",
-                        "Текстурол"});
-                    this.brandsBox.Items.AddRange(new object[] {
-                        "Aura",
-                        "Dufa",
-                        "Dulux",
-                        "Eskaro",
-                        "Finncolor",
-                        "Hammerite",
-                        "Holzer",
-                        "Marshall",
-                        "Parade",
-                        "Pinotex",
-                        "Rossetti",
-                        "TEKC",
-                        "Tikkurila",
-                        "Лакра",
-                        "Текстурол"});
+                    brands.AddRange(new[] {
+                "Aura", "Dufa", "Dulux", "Eskaro", "Finncolor",
+                "Hammerite", "Holzer", "Marshall", "Parade",
+                "Pinotex", "Rossetti", "TEKC", "Tikkurila",
+                "Лакра", "Текстурол" });
                     break;
                 case AppMode.Petrovich:
-                    this.brandsBox.AutoCompleteCustomSource.AddRange(new string[] {
-                        "Aura",
-                        "CarteBlanche",
-                        "Dufa",
-                        "Dulux",
-                        "Eskaro",
-                        "Finncolor",
-                        "Hammerite",
-                        "L'Impression",
-                        "Marshall",
-                        "Parade",
-                        "Pinotex",
-                        "TEKC",
-                        "Tikkurila"});
-                    this.brandsBox.Items.AddRange(new object[] {
-                        "Aura",
-                        "CarteBlanche",
-                        "Dufa",
-                        "Dulux",
-                        "Eskaro",
-                        "Finncolor",
-                        "Hammerite",
-                        "L'Impression",
-                        "Marshall",
-                        "Parade",
-                        "Pinotex",
-                        "TEKC",
-                        "Tikkurila"});
+                    brands.AddRange(new[] {
+                "Aura", "CarteBlanche", "Dufa", "Dulux",
+                "Eskaro", "Finncolor", "Hammerite",
+                "L'Impression", "Marshall", "Parade",
+                "Pinotex", "Pragmatic", "TEKC", "Tikkurila" });
                     break;
                 default:
-                    break;
+                    return;
             }
+
+            this.brandsBox.AutoCompleteCustomSource.AddRange(brands.ToArray());
+            this.brandsBox.Items.AddRange(brands.ToArray());
         }
     }
 }

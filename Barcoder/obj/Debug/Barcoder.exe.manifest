@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Barcoder.exe" size="440320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Barcoder.exe" size="439296">
       <assemblyIdentity name="Barcoder" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4BE4Ecmik9crsMKNLUlqdty1nCGvvyxm5Xu38YjFZYI=</dsig:DigestValue>
+        <dsig:DigestValue>tRNxo7sz0OzNVeY58LXOdt1BEOybWf2X/uDT9k0rrQU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

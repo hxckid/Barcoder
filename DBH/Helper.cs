@@ -17,13 +17,15 @@ namespace DBH
 
     public partial class Helper : Form
     {
-        AppMode curMode = AppMode.Petrovich;
+        AppMode curMode;
         static string fileName = "";
         public static List<Paint> db = new List<Paint>();
         static XmlSerializer formatter = new XmlSerializer(typeof(List<Paint>));
+        public static List<string> brands = new List<string>();
 
         public Helper()
         {
+            SetRetailer();
             switch (curMode) 
             {
                 case AppMode.Maxidom:
@@ -34,11 +36,46 @@ namespace DBH
                     break;
             }
 
-            InitRanges();
             InitializeComponent();
+            InitRanges();
             ReadDB();
         }
 
+        private void SetRetailer()
+        {
+            string configFile = "settings.ini";
+            int currentModeInt = 0;
+
+            // Read the settings.ini file and extract the CurrentMode value
+            if (File.Exists(configFile))
+            {
+                string[] lines = File.ReadAllLines(configFile);
+                foreach (string line in lines)
+                {
+                    if (line.StartsWith("CurrentMode="))
+                    {
+                        string modeStr = line.Substring("CurrentMode=".Length);
+                        if (int.TryParse(modeStr, out currentModeInt))
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+
+            // Set the AppMode variable based on the CurrentMode value
+            switch (currentModeInt)
+            {
+                case 5:
+                    curMode = AppMode.Maxidom;
+                    break;
+                case 6:
+                    curMode = AppMode.Petrovich;
+                    break;
+                default:
+                    throw new Exception("Invalid CurrentMode value in settings.ini. 5 - Maxidom, 6 - Petrovich");
+            }
+        }
 
         internal static void WriteDB()
         {
@@ -98,45 +135,32 @@ namespace DBH
             brandsBox_SelectedIndexChanged(new object(), new EventArgs());
         }
 
-        private void InitRanges()
+        void InitRanges()
         {
             switch (curMode)
             {
                 case AppMode.Maxidom:
-                    brands = new string[] { "Aura",
-                        "Dufa",
-                        "Dulux",
-                        "Eskaro",
-                        "Finncolor",
-                        "Hammerite",
-                        "Holzer",
-                        "Marshall",
-                        "Parade",
-                        "Pinotex",
-                        "Rossetti",
-                        "TEKC",
-                        "Tikkurila",
-                        "Лакра",
-                        "Текстурол"};
+                    brands.AddRange(new[] {
+                "Aura", "Dufa", "Dulux", "Eskaro", "Finncolor",
+                "Hammerite", "Holzer", "Marshall", "Parade",
+                "Pinotex", "Rossetti", "TEKC", "Tikkurila",
+                "Лакра", "Текстурол" });
                     break;
                 case AppMode.Petrovich:
-                    brands = new string[] {
-                        "Aura",
-                        "CarteBlanche",
-                        "Dufa",
-                        "Dulux",
-                        "Eskaro",
-                        "Finncolor",
-                        "Hammerite",
-                        "L'Impression",
-                        "Marshall",
-                        "Parade",
-                        "Pinotex",
-                        "TEKC",
-                        "Tikkurila"};
+                    brands.AddRange(new[] {
+                "Aura", "CarteBlanche", "Dufa", "Dulux",
+                "Eskaro", "Finncolor", "Hammerite",
+                "L'Impression", "Marshall", "Parade",
+                "Pinotex", "Pragmatic", "TEKC", "Tikkurila" });
                     break;
+                default:
+                    return;
             }
+
+            brandsBox.AutoCompleteCustomSource.AddRange(brands.ToArray());
+            brandsBox.Items.AddRange(brands.ToArray());
         }
+
         private void editBtn_Click(object sender, EventArgs e)
         {
             if (productsBox.SelectedItem == null)

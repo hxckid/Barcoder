@@ -3,33 +3,22 @@
     partial class AddForm
     {
         public static string[] bases = {
-            "A",
-            "AP",
-            "ARG",
-            "BB",
-            "BC",
-            "BRO",
-            "BT",
-            "BW",
+            "A","AP","ARG",
+            "BB","BC","BRO","BT","BW",
             "C",
-            "D",
-            "DD",
-            "EC",
-            "EP",
-            "MRA",
-            "MRC",
+            "D","DD",
+            "EC","EP",
+            "KA","KC","KTA",
+            "MRA","MRC",
             "NEU",
             "ORO",
             "PER",
             "TR",
-            "VC",
-            "VVA",
-            "Б1",
-            "Б3",
+            "VC","VVA",
+            "Б1","Б3",
             "Гл",
             "Мат",
-            "П/м",
-            "П/гл"};
+            "П/м","П/гл"};
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -101,7 +90,7 @@
             this.brandBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.brandBox.FormattingEnabled = true;
-            this.brandBox.Items.AddRange(DBH.Helper.brands);
+            this.brandBox.Items.AddRange(DBH.Helper.brands.ToArray());
             this.brandBox.Location = new System.Drawing.Point(74, 31);
             this.brandBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.brandBox.Name = "brandBox";

@@ -33,7 +33,6 @@ namespace Barcoder
             this.dataBtn6 = new System.Windows.Forms.Button();
             this.dataBtn7 = new System.Windows.Forms.Button();
             this.dataBtn8 = new System.Windows.Forms.Button();
-            this.switchModeLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // brandsBox
@@ -108,7 +107,7 @@ namespace Barcoder
             this.dataBtn1.TabIndex = 3;
             this.dataBtn1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn1.UseVisualStyleBackColor = true;
-            this.dataBtn1.Click += new System.EventHandler(this.dataBtn1_Click);
+            this.dataBtn1.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // dataBtn2
             // 
@@ -123,7 +122,7 @@ namespace Barcoder
             this.dataBtn2.TabIndex = 4;
             this.dataBtn2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn2.UseVisualStyleBackColor = true;
-            this.dataBtn2.Click += new System.EventHandler(this.dataBtn2_Click);
+            this.dataBtn2.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // dataBtn3
             // 
@@ -138,7 +137,7 @@ namespace Barcoder
             this.dataBtn3.TabIndex = 5;
             this.dataBtn3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn3.UseVisualStyleBackColor = true;
-            this.dataBtn3.Click += new System.EventHandler(this.dataBtn3_Click);
+            this.dataBtn3.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // dataBtn4
             // 
@@ -153,7 +152,7 @@ namespace Barcoder
             this.dataBtn4.TabIndex = 6;
             this.dataBtn4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn4.UseVisualStyleBackColor = true;
-            this.dataBtn4.Click += new System.EventHandler(this.dataBtn4_Click);
+            this.dataBtn4.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // dataBtn5
             // 
@@ -168,7 +167,7 @@ namespace Barcoder
             this.dataBtn5.TabIndex = 7;
             this.dataBtn5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn5.UseVisualStyleBackColor = true;
-            this.dataBtn5.Click += new System.EventHandler(this.dataBtn5_Click);
+            this.dataBtn5.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // dataBtn6
             // 
@@ -183,7 +182,7 @@ namespace Barcoder
             this.dataBtn6.TabIndex = 8;
             this.dataBtn6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn6.UseVisualStyleBackColor = true;
-            this.dataBtn6.Click += new System.EventHandler(this.dataBtn6_Click);
+            this.dataBtn6.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // dataBtn7
             // 
@@ -198,7 +197,7 @@ namespace Barcoder
             this.dataBtn7.TabIndex = 9;
             this.dataBtn7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn7.UseVisualStyleBackColor = true;
-            this.dataBtn7.Click += new System.EventHandler(this.dataBtn7_Click);
+            this.dataBtn7.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // dataBtn8
             // 
@@ -213,24 +212,13 @@ namespace Barcoder
             this.dataBtn8.TabIndex = 10;
             this.dataBtn8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dataBtn8.UseVisualStyleBackColor = true;
-            this.dataBtn8.Click += new System.EventHandler(this.dataBtn8_Click);
-            // 
-            // switchModeLabel
-            // 
-            this.switchModeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.switchModeLabel.AutoSize = true;
-            this.switchModeLabel.Location = new System.Drawing.Point(1, 449);
-            this.switchModeLabel.Name = "switchModeLabel";
-            this.switchModeLabel.Size = new System.Drawing.Size(10, 13);
-            this.switchModeLabel.TabIndex = 11;
-            this.switchModeLabel.Text = ".";
+            this.dataBtn8.Click += new System.EventHandler(this.DataBtnsHandler);
             // 
             // Barcoder
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(275, 462);
-            this.Controls.Add(this.switchModeLabel);
             this.Controls.Add(this.dataBtn8);
             this.Controls.Add(this.dataBtn7);
             this.Controls.Add(this.dataBtn6);
@@ -264,7 +252,6 @@ namespace Barcoder
         private System.Windows.Forms.Button dataBtn6;
         private System.Windows.Forms.Button dataBtn7;
         private System.Windows.Forms.Button dataBtn8;
-        private System.Windows.Forms.Label switchModeLabel;
     }
 }
 
