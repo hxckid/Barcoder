@@ -21,7 +21,7 @@ namespace DBH
         static string fileName = "";
         public static List<Paint> db = new List<Paint>();
         static XmlSerializer formatter = new XmlSerializer(typeof(List<Paint>));
-        public static List<string> brands = new List<string>();
+        public static List<string> brands;
 
         public Helper()
         {
@@ -73,7 +73,8 @@ namespace DBH
                     curMode = AppMode.Petrovich;
                     break;
                 default:
-                    throw new Exception("Invalid CurrentMode value in settings.ini. 5 - Maxidom, 6 - Petrovich");
+                    MessageBox.Show("Set CurrentMode in settings.ini");
+                    break;
             }
         }
 
@@ -137,7 +138,7 @@ namespace DBH
 
         void InitRanges()
         {
-            var brands = new List<string>();
+            brands = new List<string>();
 
             var iniFile = File.ReadAllLines("settings.ini");
             var brandSection = (int)curMode == 5 ? "Maxidom Brands" : "Petrovich Brands";

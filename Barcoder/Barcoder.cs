@@ -37,7 +37,6 @@ namespace Barcoder
             InitializeButtons();
             LockAndClearButtons();
             SetRetailer();
-            //InitializeDB();
 
             switch (curMode)
             {
@@ -88,7 +87,8 @@ namespace Barcoder
                     curMode = AppMode.Petrovich;
                     break;
                 default:
-                    throw new Exception("Invalid CurrentMode value in settings.ini. 5 - Maxidom, 6 - Petrovich");
+                    MessageBox.Show("Set CurrentMode in settings.ini");
+                    break;
             }
         }
 
@@ -183,29 +183,6 @@ namespace Barcoder
                         }
                     }
                 }
-            }
-        }
-
-        private void InitializeDB()
-        {
-            Paint paint = new Paint();
-            paint.Brand = "";
-            paint.Product = "";
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-            paint.Data.Add(new ProductData() { Base = "", Volume = "", Barcode = "" });
-
-            db.Add(paint);
-
-            using (FileStream fs = new FileStream("db.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite))
-            {
-                //fs.SetLength(0);
-                formatter.Serialize(fs, db);
             }
         }
 
