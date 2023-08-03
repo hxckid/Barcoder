@@ -22,3 +22,4 @@ DBH/obj/Debug/DBH.csproj.AssemblyReference.cache
 DBH/obj/Debug/DBH.exe
 DBH/obj/Debug/DBH.exe.manifest
 DBH/obj/Debug/DBH.pdb
+*.cache
