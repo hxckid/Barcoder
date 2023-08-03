@@ -50,52 +50,6 @@
     <Data>
       <ProductData>
         <Base>A</Base>
-        <Volume>1.8</Volume>
-        <Barcode>16104</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16105</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>TEKC</Brand>
-    <Product>Интерьерная Профи</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
         <Volume> 2.7</Volume>
         <Barcode>22883</Barcode>
       </ProductData>
@@ -924,52 +878,6 @@
     <Data>
       <ProductData>
         <Base>BW</Base>
-        <Volume>2.5</Volume>
-        <Barcode>18954</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BW</Base>
-        <Volume>5.0</Volume>
-        <Barcode>18955</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BW</Base>
-        <Volume>10</Volume>
-        <Barcode>18956</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Dulux</Brand>
-    <Product>3D White</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>BW</Base>
         <Volume>1.0</Volume>
         <Barcode>25163</Barcode>
       </ProductData>
@@ -1011,52 +919,6 @@
     </Data>
     <Brand>Dulux</Brand>
     <Product>Bindo 3 Professional</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>BW</Base>
-        <Volume>1.0</Volume>
-        <Barcode>25166</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BW</Base>
-        <Volume>2.5</Volume>
-        <Barcode>25167</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BW</Base>
-        <Volume>9.0</Volume>
-        <Barcode>25168</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BC</Base>
-        <Volume>0.9</Volume>
-        <Barcode>25169</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BC</Base>
-        <Volume>2.25</Volume>
-        <Barcode>25170</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Dulux</Brand>
-    <Product>Bindo 7 Professional</Product>
   </Paint>
   <Paint>
     <Data>
@@ -4512,52 +4374,6 @@
     <Data>
       <ProductData>
         <Base>A</Base>
-        <Volume>0.9</Volume>
-        <Barcode>23366</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>23367</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>23368</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Perfecta</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
         <Volume>4.5</Volume>
         <Barcode>16106</Barcode>
       </ProductData>
@@ -4787,52 +4603,6 @@
   <Paint>
     <Data>
       <ProductData>
-        <Base>EP</Base>
-        <Volume>0.9</Volume>
-        <Barcode>25142</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Valtti Expert Aqua</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
         <Base>ORO</Base>
         <Volume>0.1</Volume>
         <Barcode>00000</Barcode>
@@ -4967,52 +4737,6 @@
     </Data>
     <Brand>Holzer</Brand>
     <Product>Azalea</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>BW</Base>
-        <Volume>2.5</Volume>
-        <Barcode>27384</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BW</Base>
-        <Volume>9.0</Volume>
-        <Barcode>27385</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BC</Base>
-        <Volume>2.5</Volume>
-        <Barcode>27386</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BC</Base>
-        <Volume>9.0</Volume>
-        <Barcode>27389</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Dufa</Brand>
-    <Product>Facade</Product>
   </Paint>
   <Paint>
     <Data>
@@ -6075,52 +5799,6 @@
   <Paint>
     <Data>
       <ProductData>
-        <Base>Mat</Base>
-        <Volume>2.7</Volume>
-        <Barcode>27394</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>П/гл</Base>
-        <Volume>2.7</Volume>
-        <Barcode>37395</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Dufa</Brand>
-    <Product>Lacquer Aqua</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
         <Base>Гл</Base>
         <Volume>2.0</Volume>
         <Barcode>19465</Barcode>
@@ -6398,52 +6076,6 @@
     <Data>
       <ProductData>
         <Base>A</Base>
-        <Volume>2.5</Volume>
-        <Barcode>31525</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Metallista</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
         <Volume>0.9</Volume>
         <Barcode>25344</Barcode>
       </ProductData>
@@ -6623,52 +6255,6 @@
     </Data>
     <Brand>Tikkurila</Brand>
     <Product>Pesto 90</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>3кг</Volume>
-        <Barcode>32756</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>14кг</Volume>
-        <Barcode>32746</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>TEKC</Brand>
-    <Product>Интерьерная Универсал</Product>
   </Paint>
   <Paint>
     <Data>
@@ -7037,5 +6623,1155 @@
     </Data>
     <Brand>Eskaro</Brand>
     <Product>Moda Fasad Silicon</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>1.0</Volume>
+        <Barcode>25166</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>2.5</Volume>
+        <Barcode>25167</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>9.0</Volume>
+        <Barcode>25168</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>25169</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BC</Base>
+        <Volume>2.25</Volume>
+        <Barcode>33336</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dulux</Brand>
+    <Product>Bindo 7 Professional</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>2.5</Volume>
+        <Barcode>27384</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>9.0</Volume>
+        <Barcode>27385</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BC</Base>
+        <Volume>2.5</Volume>
+        <Barcode>27386</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>27387</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Facade</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31493</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33629</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/гл</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31494</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/гл</Base>
+        <Volume>9.0</Volume>
+        <Barcode>31495</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Lacquer Aqua</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33343</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31599</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31601</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33146</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Lacquer Parquet</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33435</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33436</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33437</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33438</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33439</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33440</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Unica Super Strong</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33464</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33465</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33466</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33462</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33463</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Paneeli-Assa Expert</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33467</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33468</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33469</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Supi Sauna Protect</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33470</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33471</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33472</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33473</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33474</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33475</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Vinha</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>23366</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>23367</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>23368</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>23369</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31518</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>23371</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Perfecta</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33137</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31509</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>31510</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>32337</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31511</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>32338</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Euro Extra 20</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33441</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33442</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33443</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33444</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33445</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33446</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Luja Extra</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33447</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33448</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33449</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33450</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33451</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33452</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Harmony Velure</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33453</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33454</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33455</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33456</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33457</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33458</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Harmony Satin</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33459</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33460</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33461</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Siro White</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.8</Volume>
+        <Barcode>16104</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>4.5</Volume>
+        <Barcode>32746</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16105</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>TEKC</Brand>
+    <Product>Интерьерная Профи</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>3кг</Volume>
+        <Barcode>32756</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>14кг</Volume>
+        <Barcode>32746</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>TEKC</Brand>
+    <Product>Интерьерная Универсал</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>0.9</Volume>
+        <Barcode>31032</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31031</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>9.0</Volume>
+        <Barcode>28844</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Pinotex</Brand>
+    <Product>Original</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.7</Volume>
+        <Barcode>31036</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.5</Volume>
+        <Barcode>31037</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>31038</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Supreme</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33367</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.5</Volume>
+        <Barcode>33366</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33365</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Pinotex</Brand>
+    <Product>Classic Plus</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>34032</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>34033</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>5.0</Volume>
+        <Barcode>34034</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>34035</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>34036</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>34037</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>5.0</Volume>
+        <Barcode>34038</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>34039</Barcode>
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Facade Acrylate</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>0.9</Volume>
+        <Barcode>34025</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>2.7</Volume>
+        <Barcode>34026</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EC</Base>
+        <Volume>9.0</Volume>
+        <Barcode>34027</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Valtti Color Classic</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>34028</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>34029</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>11111</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>11111</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>34030</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>34031</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Finncolor</Brand>
+    <Product>Oasis Bathroom</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>2.5</Volume>
+        <Barcode>30987</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>5.0</Volume>
+        <Barcode>30988</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BW</Base>
+        <Volume>9.0</Volume>
+        <Barcode>30986</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dulux</Brand>
+    <Product>3D White</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.4</Volume>
+        <Barcode>34040</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.8</Volume>
+        <Barcode>34021</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.3</Volume>
+        <Barcode>34022</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.4</Volume>
+        <Barcode>34041</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.8</Volume>
+        <Barcode>34023</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.3</Volume>
+        <Barcode>34173</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Metallista</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>EP</Base>
+        <Volume>0.9</Volume>
+        <Barcode>25142</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EP</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31053</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>EP</Base>
+        <Volume>9.0</Volume>
+        <Barcode>31054</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Valtti Expert Aqua</Product>
   </Paint>
 </ArrayOfPaint>

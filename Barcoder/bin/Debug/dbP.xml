@@ -3547,52 +3547,6 @@
       <ProductData>
         <Base>A</Base>
         <Volume>2.7</Volume>
-        <Barcode>163221</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>163217</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>TR</Base>
-        <Volume>2.7</Volume>
-        <Barcode>163223</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>TR</Base>
-        <Volume>9.0</Volume>
-        <Barcode>163222</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Aura</Brand>
-    <Product>Mattlatex</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>2.7</Volume>
         <Barcode>127681</Barcode>
       </ProductData>
       <ProductData>
@@ -5478,52 +5432,6 @@
     <Data>
       <ProductData>
         <Base>A</Base>
-        <Volume>2.7</Volume>
-        <Barcode>966483</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>966484</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>TR</Base>
-        <Volume>2.7</Volume>
-        <Barcode>966482</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>TR</Base>
-        <Volume>9.0</Volume>
-        <Barcode>966485</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Eskaro</Brand>
-    <Product>Moda Facade Silicon</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
         <Volume>0.9</Volume>
         <Barcode>966476</Barcode>
       </ProductData>
@@ -5703,5 +5611,1569 @@
     </Data>
     <Brand>Dulux</Brand>
     <Product>Diamond Extra Matt</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>BL</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920514</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>BL</Base>
+        <Volume>10</Volume>
+        <Barcode>920515</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Trend Black</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920416</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>10</Volume>
+        <Barcode>920417</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Superweiss</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>4.0</Volume>
+        <Barcode>978140</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>978141</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>CarteBlanche</Brand>
+    <Product>Primer Plus</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>4.0</Volume>
+        <Barcode>978134</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>978135</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>4.0</Volume>
+        <Barcode>978136</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>8.1</Volume>
+        <Barcode>978137</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>CarteBlanche</Brand>
+    <Product>Flat White</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>4.0</Volume>
+        <Barcode>978132</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>8.1</Volume>
+        <Barcode>978133</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>CarteBlanche</Brand>
+    <Product>Matt</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>4.0</Volume>
+        <Barcode>978138</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>978139</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>CarteBlanche</Brand>
+    <Product>Deep Prime</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.9</Volume>
+        <Barcode>920476</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Mobel</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920422</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>10.0</Volume>
+        <Barcode>920423</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Fassadenfarbe</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920490</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920491</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Aqua-Seidenmattlack</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920432</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>9.0</Volume>
+        <Barcode>920433</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Performance</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920511</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>2.0</Volume>
+        <Barcode>920512</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>10.0</Volume>
+        <Barcode>920513</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920508</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>2.0</Volume>
+        <Barcode>920509</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>10.0</Volume>
+        <Barcode>920510</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Yacht</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920465</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>9.0</Volume>
+        <Barcode>920466</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Euro Inn 40</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920480</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>2.0</Volume>
+        <Barcode>920481</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>10.0</Volume>
+        <Barcode>920482</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920483</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>2.0</Volume>
+        <Barcode>920484</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>10.0</Volume>
+        <Barcode>920485</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Parkett</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920428</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>9.0</Volume>
+        <Barcode>920429</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920430</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>9.0</Volume>
+        <Barcode>920431</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Acrylic matt</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>0.9</Volume>
+        <Barcode>920434</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920435</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>9.0</Volume>
+        <Barcode>1</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>0.81</Volume>
+        <Barcode>920446</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>2.2</Volume>
+        <Barcode>920447</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>8.1</Volume>
+        <Barcode>920448</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Wood Decor</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920424</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>9.0</Volume>
+        <Barcode>920425</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920426</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>9.0</Volume>
+        <Barcode>920427</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Ultra matt</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920486</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б1</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920487</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920488</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Б3</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920489</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Aqua-Hochglanzlack</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Мат</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920469</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.75</Volume>
+        <Barcode>920467</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>2.5</Volume>
+        <Barcode>920468</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Dufa</Brand>
+    <Product>Aqua-Parkettlack</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>966483</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>966484</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>TR</Base>
+        <Volume>2.7</Volume>
+        <Barcode>966482</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>TR</Base>
+        <Volume>9.0</Volume>
+        <Barcode>966485</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Eskaro</Brand>
+    <Product>Moda Fasad Silicon</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.0</Volume>
+        <Barcode>978118</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.5</Volume>
+        <Barcode>765184</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Sous-couche</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>4.0</Volume>
+        <Barcode>765176</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Stucco base minerale</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.8</Volume>
+        <Barcode>765183</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Cire base Metallisee Silver</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>TR</Base>
+        <Volume>1.0</Volume>
+        <Barcode>765178</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Cire Protect</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.0</Volume>
+        <Barcode>978121</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.5</Volume>
+        <Barcode>765173</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Sableux</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.8</Volume>
+        <Barcode>765180</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Cire base Metallisee Or</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.0</Volume>
+        <Barcode>978122</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.5</Volume>
+        <Barcode>765170</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Tisse</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.8</Volume>
+        <Barcode>765181</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Cire base Metallisee 3D Perle</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.8</Volume>
+        <Barcode>765182</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Cire base Metallisee Perle</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.0</Volume>
+        <Barcode>978120</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.5</Volume>
+        <Barcode>765171</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Les Perles</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.0</Volume>
+        <Barcode>978119</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.5</Volume>
+        <Barcode>765172</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Perle Excellente</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>7.0</Volume>
+        <Barcode>765177</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Tufo base Calce</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.0</Volume>
+        <Barcode>978124</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.5</Volume>
+        <Barcode>765179</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Cire</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.0</Volume>
+        <Barcode>978117</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.5</Volume>
+        <Barcode>765174</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>L'Impression</Brand>
+    <Product>Biblos Perle</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>163221</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>163217</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>TR</Base>
+        <Volume>2.7</Volume>
+        <Barcode>163223</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>TR</Base>
+        <Volume>9.0</Volume>
+        <Barcode>163222</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Aura</Brand>
+    <Product>Mattlatex</Product>
   </Paint>
 </ArrayOfPaint>
