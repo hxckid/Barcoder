@@ -2673,52 +2673,6 @@
       <ProductData>
         <Base>BC</Base>
         <Volume>1.0</Volume>
-        <Barcode>19468</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>BC</Base>
-        <Volume>2.7</Volume>
-        <Barcode>19467</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Pinotex</Brand>
-    <Product>Wood&amp;Terrace Oil</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>BC</Base>
-        <Volume>1.0</Volume>
         <Barcode>22869</Barcode>
       </ProductData>
       <ProductData>
@@ -6213,98 +6167,6 @@
   <Paint>
     <Data>
       <ProductData>
-        <Base>Гл</Base>
-        <Volume>0.9</Volume>
-        <Barcode>33343</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Гл</Base>
-        <Volume>2.7</Volume>
-        <Barcode>31599</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>П/м</Base>
-        <Volume>2.7</Volume>
-        <Barcode>31601</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>П/м</Base>
-        <Volume>9.0</Volume>
-        <Barcode>33146</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Lacquer Parquet</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>Мат</Base>
-        <Volume>0.9</Volume>
-        <Barcode>33435</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Мат</Base>
-        <Volume>2.7</Volume>
-        <Barcode>33436</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Мат</Base>
-        <Volume>9.0</Volume>
-        <Barcode>33437</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Гл</Base>
-        <Volume>0.9</Volume>
-        <Barcode>33438</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Гл</Base>
-        <Volume>2.7</Volume>
-        <Barcode>33439</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>Гл</Base>
-        <Volume>9.0</Volume>
-        <Barcode>33440</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>Tikkurila</Brand>
-    <Product>Unica Super Strong</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
         <Base>П/м</Base>
         <Volume>0.9</Volume>
         <Barcode>33464</Barcode>
@@ -6715,52 +6577,6 @@
     </Data>
     <Brand>Tikkurila</Brand>
     <Product>Siro White</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>1.8</Volume>
-        <Barcode>16104</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>4.5</Volume>
-        <Barcode>32746</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16105</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>TEKC</Brand>
-    <Product>Интерьерная Профи</Product>
   </Paint>
   <Paint>
     <Data>
@@ -7410,52 +7226,6 @@
     <Data>
       <ProductData>
         <Base>A</Base>
-        <Volume>4.5</Volume>
-        <Barcode>16106</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>A</Base>
-        <Volume>9.0</Volume>
-        <Barcode>16107</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base>D</Base>
-        <Volume>9.0</Volume>
-        <Barcode>33632</Barcode>
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-      <ProductData>
-        <Base />
-        <Volume />
-        <Barcode />
-      </ProductData>
-    </Data>
-    <Brand>TEKC</Brand>
-    <Product>Фасадная Профи</Product>
-  </Paint>
-  <Paint>
-    <Data>
-      <ProductData>
-        <Base>A</Base>
         <Volume>0.9</Volume>
         <Barcode>23360</Barcode>
       </ProductData>
@@ -7543,5 +7313,281 @@
     </Data>
     <Brand>TEKC</Brand>
     <Product>Эмаль для Радиаторов</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>34042</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>34043</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>34044</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>31489</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31488</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>31500</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Euro Power 7</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33435</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33436</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33437</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33438</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33439</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33440</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Unica Super Strong</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33343</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>Гл</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31599</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33146</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>П/м</Base>
+        <Volume>2.7</Volume>
+        <Barcode>31601</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Lacquer Parquet</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>32756</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>1.8</Volume>
+        <Barcode>16104</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>4.5</Volume>
+        <Barcode>32746</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16105</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>TEKC</Brand>
+    <Product>Интерьерная Профи</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>16107</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>D</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33632</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>TEKC</Brand>
+    <Product>Фасадная Профи</Product>
+  </Paint>
+  <Paint>
+    <Data>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33482</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33483</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>A</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33484</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>0.9</Volume>
+        <Barcode>33485</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>2.7</Volume>
+        <Barcode>33486</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base>C</Base>
+        <Volume>9.0</Volume>
+        <Barcode>33487</Barcode>
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+      <ProductData>
+        <Base />
+        <Volume />
+        <Barcode />
+      </ProductData>
+    </Data>
+    <Brand>Tikkurila</Brand>
+    <Product>Yki Socle</Product>
   </Paint>
 </ArrayOfPaint>
